@@ -29,8 +29,9 @@ function Home() {
 
       <Hero />
       <AboutSection />
-      <StatsSection />
       <ProductCategories />
+      <StatsSection />
+      
       <WhyChooseUs />
       <CTA />
     </>

@@ -65,34 +65,59 @@ function ProductCategory() {
 
               {data.products.map((item, index) => (
                 <div
-                  key={index}
-                  className="bg-white rounded-[30px] overflow-hidden shadow-lg hover:shadow-2xl transition"
-                >
+  key={index}
+  className="group bg-white rounded-[35px] overflow-hidden border border-gray-100 shadow-md hover:shadow-2xl hover:-translate-y-3 transition duration-500"
+>
 
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    className="w-full h-[280px] object-cover"
-                  />
+  {/* Product Image */}
+  <div className="overflow-hidden">
 
-                  <div className="p-8">
+    <img
+      src={item.image}
+      alt={item.name}
+      className="w-full h-[320px] object-cover group-hover:scale-110 transition duration-700"
+    />
 
-                    <h3 className="text-2xl font-bold text-[#0B1F3A]">
-                      {item.name}
-                    </h3>
+  </div>
 
-                    <a
-                      href="https://wa.me/918328310975"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block mt-6 bg-yellow-400 px-5 py-3 rounded-full font-semibold hover:bg-[#0B1F3A] hover:text-white transition"
-                    >
-                      WhatsApp Inquiry
-                    </a>
+  {/* Content */}
+  <div className="p-8">
 
-                  </div>
+    <span className="inline-block bg-yellow-100 text-yellow-700 text-sm font-semibold px-4 py-2 rounded-full mb-4">
+      Industrial Safety
+    </span>
 
-                </div>
+    <h3 className="text-2xl font-bold text-[#0B1F3A]">
+      {item.name}
+    </h3>
+
+    <p className="text-gray-600 mt-4 leading-7">
+      Premium quality {item.name.toLowerCase()} for
+      industrial safety, construction, manufacturing,
+      and workplace protection.
+    </p>
+
+    {/* Buttons */}
+    <div className="flex gap-3 mt-8">
+
+      <a
+        href="https://wa.me/918328310975"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex-1 bg-green-500 text-white text-center py-3 rounded-full font-semibold hover:bg-green-600 transition"
+      >
+        WhatsApp
+      </a>
+
+      <button className="flex-1 bg-[#0B1F3A] text-white py-3 rounded-full font-semibold hover:bg-yellow-400 hover:text-[#0B1F3A] transition">
+        Get Quote
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
               ))}
 
             </div>
