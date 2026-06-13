@@ -1,4 +1,6 @@
 import { Helmet } from "react-helmet-async";
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
 import {
   MapPin,
   Phone,
@@ -9,6 +11,59 @@ import {
 import { motion } from "framer-motion";
 
 function Contact() {
+    const [formData, setFormData] = useState({
+  name: "",
+  phone: "",
+  email: "",
+  message: "",
+});
+
+const [loading, setLoading] = useState(false);
+
+const handleChange = (e) => {
+  setFormData({
+    ...formData,
+    [e.target.name]: e.target.value,
+  });
+};
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  setLoading(true);
+
+  emailjs
+    .send(
+      "service_d839bos",
+      "template_le7oeyb",
+      {
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        message: formData.message,
+      },
+      "78NBT_tB_M13D-WjO"
+    )
+    .then(() => {
+      alert("Inquiry sent successfully!");
+
+      setFormData({
+        name: "",
+        phone: "",
+        email: "",
+        message: "",
+      });
+
+      setLoading(false);
+    })
+    .catch((error) => {
+      console.log(error);
+
+      alert("Something went wrong!");
+
+      setLoading(false);
+    });
+};
   return (
     <div className="bg-[#F8FAFC]">
         <Helmet>
@@ -154,37 +209,58 @@ function Contact() {
               Fill out the form and our team will contact you.
             </p>
 
-            <form className="space-y-5 mt-8">
+           <form
+  onSubmit={handleSubmit}
+  className="space-y-5 mt-8"
+>
 
               <input
-                type="text"
-                placeholder="Full Name"
-                className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-yellow-500"
-              />
+  type="text"
+  name="name"
+  placeholder="Full Name"
+  value={formData.name}
+  onChange={handleChange}
+  required
+  className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-yellow-500"
+/>
 
               <input
-                type="tel"
-                placeholder="Phone Number"
-                className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-yellow-500"
-              />
+  type="tel"
+  name="phone"
+  placeholder="Phone Number"
+  value={formData.phone}
+  onChange={handleChange}
+  required
+  className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-yellow-500"
+/>
 
-              <input
-                type="email"
-                placeholder="Email Address"
-                className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-yellow-500"
-              />
+             <input
+  type="email"
+  name="email"
+  placeholder="Email Address"
+  value={formData.email}
+  onChange={handleChange}
+  required
+  className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-yellow-500"
+/>
 
               <textarea
-                rows="5"
-                placeholder="Your Requirement"
-                className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-yellow-500"
-              ></textarea>
+  rows="5"
+  name="message"
+  placeholder="Your Requirement"
+  value={formData.message}
+  onChange={handleChange}
+  required
+  className="w-full border border-gray-300 rounded-2xl px-5 py-4 outline-none focus:border-yellow-500"
+></textarea>
 
               <button
-                className="w-full bg-yellow-400 py-4 rounded-2xl font-semibold hover:bg-[#0B1F3A] hover:text-white transition"
-              >
-                Send Inquiry
-              </button>
+  type="submit"
+  disabled={loading}
+  className="w-full bg-yellow-400 py-4 rounded-2xl font-semibold hover:bg-[#0B1F3A] hover:text-white transition"
+>
+  {loading ? "Sending..." : "Send Inquiry"}
+</button>
 
             </form>
 
