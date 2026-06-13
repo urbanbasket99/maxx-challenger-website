@@ -271,24 +271,45 @@ const handleSubmit = (e) => {
       </section>
 
       {/* Google Map */}
-      <section className="pb-24 px-6">
+      {/* Google Map Section */}
+<section className="py-20 bg-[#F8FAFC]">
 
-        <div className="max-w-7xl mx-auto rounded-[35px] overflow-hidden shadow-2xl">
+  <div className="max-w-7xl mx-auto px-6">
 
-          <iframe
-            src="https://www.google.com/maps?q=Jeedimetla,+Hyderabad,+Telangana+500055&output=embed"
-            width="100%"
-            height="500"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            title="Map"
-          ></iframe>
+    <div className="text-center mb-10">
 
-        </div>
+      <span className="text-yellow-500 font-semibold uppercase tracking-widest">
+        Visit Us
+      </span>
 
-      </section>
+      <h2 className="text-4xl md:text-5xl font-bold text-[#0B1F3A] mt-4">
+        Find Our Location
+      </h2>
 
+      <p className="text-gray-600 mt-4 text-lg">
+        Visit our office in Jeedimetla, Hyderabad
+      </p>
+
+    </div>
+
+    <div className="rounded-[35px] overflow-hidden shadow-2xl border border-gray-200">
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30436.89736174661!2d78.42236280441284!3d17.526017455157277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f122dfba423%3A0xa00cebc9da03129c!2sMAXX%20CHALLENGER%20SAFETY%20PRODUCTS!5e0!3m2!1sen!2sus!4v1781334508962!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        width="100%"
+        height="500"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Maxx Challenger Safety Products Location"
+      ></iframe>
+
+    </div>
+
+  </div>
+
+</section>
     </div>
   );
 }
