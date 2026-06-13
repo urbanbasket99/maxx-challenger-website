@@ -5,6 +5,7 @@ import AboutSection from "../components/AboutSection";
 import ProductCategories from "../components/ProductCategories";
 import WhyChooseUs from "../components/WhyChooseUs";
 import CTA from "../components/CTA";
+import StatsSection from "../components/StatsSection";
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
 
       <Hero />
       <AboutSection />
+      <StatsSection />
       <ProductCategories />
       <WhyChooseUs />
       <CTA />
