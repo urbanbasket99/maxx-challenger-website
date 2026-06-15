@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
-import seoPages from "../data/seoPages.js";
+import seoPages from "../data/seoData";
 import CTA from "../components/CTA";
 
 function SeoLandingPage() {
