@@ -96,6 +96,10 @@ function Navbar() {
               )}
             </div>
 
+            <Link to="/blog" className="hover:text-yellow-500">
+              Blog
+            </Link>
+
             <Link to="/contact" className="hover:text-yellow-500">
               Contact
             </Link>

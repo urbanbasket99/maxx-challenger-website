@@ -7,7 +7,8 @@ import About from "../pages/About";
 import Products from "../pages/Products";
 import Contact from "../pages/Contact";
 import ProductCategory from "../pages/ProductCategory";
-
+import Blog from "../pages/Blog";
+import BlogDetail from "../pages/BlogDetail";
 function AppRoutes() {
   return (
     <Routes>
@@ -31,8 +32,14 @@ function AppRoutes() {
   path="/:slug"
   element={<SeoLandingPage />}
 />
+<Route path="/blog" element={<Blog />} />
+<Route
+  path="/blog/:slug"
+  element={<BlogDetail />}
+/>
      
     </Routes>
+    
   );
 }
 

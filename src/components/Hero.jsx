@@ -137,7 +137,7 @@ function Hero() {
           />
 
           {/* Floating Card */}
-          <div className="absolute bottom-8 right-8 bg-yellow-400 rounded-[25px] shadow-2xl p-6 hidden md:block">
+          <div className="absolute bottom-12 right-15 bg-yellow-400 rounded-[25px] shadow-2xl p-6 hidden md:block">
 
             <h3 className="text-3xl font-bold text-[#0B1F3A]">
               1000+
