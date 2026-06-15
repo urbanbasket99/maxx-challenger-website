@@ -5,7 +5,7 @@ import {
   MapPin,
   Clock,
 } from "lucide-react";
-
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
 function Footer() {
@@ -29,6 +29,36 @@ function Footer() {
             manufacturer and supplier of industrial safety
             products in Hyderabad since 2014.
           </p>
+          <div className="flex gap-4 mt-6">
+
+  <a
+    href="https://www.facebook.com/bigelephantsafety"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/10 p-3 rounded-full hover:bg-[#1877F2] transition duration-300 text-white font-bold text-lg w-12 h-12 flex items-center justify-center"
+  >
+    <FaFacebookF size={18} />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/maxx-challenger-55ba95415/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/10 p-3 rounded-full hover:bg-[#0A66C2] transition duration-300 text-white font-bold text-sm w-12 h-12 flex items-center justify-center"
+  >
+    <FaLinkedinIn size={18} />
+  </a>
+
+  <a
+    href="https://wa.me/918328310975"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/10 p-3 rounded-full hover:bg-green-500 transition duration-300 w-12 h-12 flex items-center justify-center"
+  >
+    💬
+  </a>
+
+</div>
 
         </div>
 

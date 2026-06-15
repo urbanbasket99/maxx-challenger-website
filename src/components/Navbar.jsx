@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/logo.png";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useState } from "react";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -102,21 +103,50 @@ function Navbar() {
           </nav>
 
           {/* Desktop Buttons */}
-          <div className="hidden md:flex gap-4">
+          {/* Desktop Right Side */}
+<div className="hidden md:flex items-center gap-4">
 
-            <a
-              href="https://wa.me/918328310975"
-              target="_blank"
-              className="border border-green-500 text-green-600 px-5 py-3 rounded-full font-semibold"
-            >
-              WhatsApp
-            </a>
+  {/* Social Icons */}
+  <div className="flex gap-2">
 
-            <button className="bg-yellow-400 px-6 py-3 rounded-full font-semibold">
-              Get Quote
-            </button>
+    <a
+      href="https://www.facebook.com/bigelephantsafety"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-9 h-9 rounded-full bg-[#F3F4F6] hover:bg-[#1877F2] hover:text-white transition flex items-center justify-center font-bold"
+    >
+      <FaFacebookF size={15} />
+    </a>
 
-          </div>
+    <a
+      href="https://www.linkedin.com/in/maxx-challenger-55ba95415/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-9 h-9 rounded-full bg-[#F3F4F6] hover:bg-[#0A66C2] hover:text-white transition flex items-center justify-center font-bold text-sm"
+    >
+     <FaLinkedinIn size={15} />
+    </a>
+
+  </div>
+
+  {/* WhatsApp Button */}
+  <a
+    href="https://wa.me/918328310975"
+    target="_blank"
+    className="border border-green-500 text-green-600 px-5 py-3 rounded-full font-semibold hover:bg-green-500 hover:text-white transition"
+  >
+    WhatsApp
+  </a>
+
+  {/* Get Quote */}
+  <a
+    href="/contact"
+    className="bg-yellow-400 px-6 py-3 rounded-full font-semibold hover:bg-[#0B1F3A] hover:text-white transition"
+  >
+    Get Quote
+  </a>
+
+</div>
 
           {/* Mobile Menu Button */}
           <button
