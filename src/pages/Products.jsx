@@ -5,14 +5,14 @@ import jacket from "../assets/products/jacket.jpg";
 import gumboot from "../assets/products/gumboot.jpg";
 import roadSafety from "../assets/products/road-safety.jpg";
 import { Link } from "react-router-dom";
-import Product360 from "../components/Product360";
+
 import { motion } from "framer-motion";
 
 const products = [
   {
     title: "Safety Helmets",
     image: helmet,
-    slug: "safety-helmets",
+    slug: "industrial-safety-helmet",
     desc: "Premium industrial safety helmets for workplace protection.",
   },
   {
@@ -117,12 +117,12 @@ function Products() {
 
                   <div className="flex gap-3 mt-6 flex-wrap">
 
-  <Link
-    to={`/products/${item.slug}`}
-    className="bg-yellow-400 px-5 py-3 rounded-full font-semibold hover:bg-[#0B1F3A] hover:text-white transition"
-  >
-    View Details
-  </Link>
+ <Link
+  to={`/product/${item.slug}`}
+  className="bg-yellow-400 px-5 py-3 rounded-full font-semibold"
+>
+ Click Test
+</Link>
 
   <a
     href="https://wa.me/918328310975"

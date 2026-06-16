@@ -3,6 +3,7 @@ import helmet2 from "../assets/helmets/helmet2.jpg";
 import helmet3 from "../assets/helmets/helmet3.jpg";
 import helmet4 from "../assets/helmets/helmet4.jpg";
 import Product360 from "../components/Product360";
+import { Link } from "react-router-dom";
 
 
 import CTA from "../components/CTA";
@@ -106,15 +107,32 @@ function SafetyHelmets() {
             <p className="text-gray-600 mt-3 leading-7">
               {item.desc}
             </p>
+         <div className="flex gap-3 mt-6 flex-wrap relative z-50">
+  <a
+    href="https://wa.me/918328310975"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#00C853] text-white px-5 py-3 rounded-full font-semibold hover:opacity-90 transition"
+  >
+    WhatsApp
+  </a>
 
-            <a
-              href="https://wa.me/918328310975"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-6 bg-yellow-400 px-5 py-3 rounded-full font-semibold hover:bg-[#0B1F3A] hover:text-white transition duration-300"
-            >
-              WhatsApp Inquiry
-            </a>
+ <Link
+  to={`/product/${
+    index === 0
+      ? "industrial-safety-helmet"
+      : index === 1
+      ? "construction-safety-helmet"
+      : index === 2
+      ? "heavy-duty-safety-helmet"
+      : "industrial-load-carry-helmet"
+  }`}
+  className="inline-block cursor-pointer bg-[#0B1F3A] text-white px-5 py-3 rounded-full font-semibold hover:bg-yellow-400 hover:text-[#0B1F3A] transition duration-300"
+>
+  Click Me
+</Link>
+</div>
+       
           </div>
         </motion.div>
       ))}

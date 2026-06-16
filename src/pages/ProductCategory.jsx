@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-
+import { Link } from "react-router-dom";
 import productCategories from "../data/productCategories";
 import CTA from "../components/CTA";
 
@@ -98,22 +98,23 @@ function ProductCategory() {
     </p>
 
     {/* Buttons */}
-    <div className="flex gap-3 mt-8">
+    <div className="flex gap-3 mt-6 flex-wrap relative z-50">
+  <a
+    href="https://wa.me/918328310975"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#00C853] text-white px-5 py-3 rounded-full font-semibold hover:opacity-90 transition"
+  >
+    WhatsApp
+  </a>
 
-      <a
-        href="https://wa.me/918328310975"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex-1 bg-green-500 text-white text-center py-3 rounded-full font-semibold hover:bg-green-600 transition"
-      >
-        WhatsApp
-      </a>
-
-      <button className="flex-1 bg-[#0B1F3A] text-white py-3 rounded-full font-semibold hover:bg-yellow-400 hover:text-[#0B1F3A] transition">
-        Get Quote
-      </button>
-
-    </div>
+<Link
+  to={`/product/${item.slug}`}
+  className="bg-red-500 text-white px-6 py-3 rounded-full"
+>
+  View Product
+</Link>
+</div>
 
   </div>
 

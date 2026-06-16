@@ -9,6 +9,8 @@ import Contact from "../pages/Contact";
 import ProductCategory from "../pages/ProductCategory";
 import Blog from "../pages/Blog";
 import BlogDetail from "../pages/BlogDetail";
+import ProductDetail from "../pages/ProductDetail";
+
 function AppRoutes() {
   return (
     <Routes>
@@ -25,9 +27,14 @@ function AppRoutes() {
   
 />
 <Route
+  path="/product/:slug"
+  element={<ProductDetail />}
+/>
+<Route
   path="/industrial-safety-products-hyderabad"
   element={<IndustrialSafetyHyderabad />}
 />
+
 <Route
   path="/:slug"
   element={<SeoLandingPage />}
@@ -37,6 +44,7 @@ function AppRoutes() {
   path="/blog/:slug"
   element={<BlogDetail />}
 />
+
      
     </Routes>
     

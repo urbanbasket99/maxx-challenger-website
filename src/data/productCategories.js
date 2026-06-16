@@ -11,35 +11,42 @@ import helmet3 from "../assets//helmets/helmet3.jpg";
 const productCategories = {
  "safety-helmets": {
   title: "Safety Helmets",
+  slug:"safety-helmets",
   description:
     "Premium industrial safety helmets for construction, factories and workplaces.",
 
   products: [
     {
       name: "Industrial Safety Helmet",
+       slug: "industrial-safety-helmet",
       image: helmet1,
     },
     {
       name: "Construction Safety Helmet",
+      slug: "construction-safety-helmet",
       image: helmet2,
     },
     {
       name: "HDPE Safety Helmet",
+      slug: "heavy-duty-safety-helmet",
       image: helmet3,
     },
   ],
 },
   "safety-shoes": {
     title: "Safety Shoes",
+     slug: "safety-shoes",
     description:
       "Premium industrial safety shoes for maximum worker protection.",
     products: [
       {
         name: "Steel Toe Safety Shoes",
+        slug: "safety-shoes",
         image: shoes,
       },
       {
         name: "Industrial Safety Shoes",
+        slug: "industrial-safety-shoes",
         image: shoes,
       },
     ],
@@ -47,6 +54,7 @@ const productCategories = {
 
   "safety-gloves": {
     title: "Safety Gloves",
+     slug: "safety-gloves",
     description:
       "Industrial gloves for workplace safety and protection.",
     products: [
@@ -63,6 +71,7 @@ const productCategories = {
 
   "reflective-jackets": {
     title: "Reflective Jackets",
+    slug: "reflective-jackets",
     description:
       "High visibility safety jackets for industrial workers.",
     products: [
