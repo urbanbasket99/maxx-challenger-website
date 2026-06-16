@@ -5,7 +5,7 @@ import jacket from "../assets/products/jacket.jpg";
 import gumboot from "../assets/products/gumboot.jpg";
 import roadSafety from "../assets/products/road-safety.jpg";
 import { Link } from "react-router-dom";
-
+import Product360 from "../components/Product360";
 import { motion } from "framer-motion";
 
 const products = [

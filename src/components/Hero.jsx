@@ -133,7 +133,7 @@ function Hero() {
           <img
             src={HeroImage}
             alt="Industrial Safety"
-            className="rounded-[40px] shadow-2xl w-full h-[350px] md:h-[650px] object-cover border border-white/10"
+           className="w-full max-w-[700px] object-contain rounded-[30px]"
           />
 
           {/* Floating Card */}
