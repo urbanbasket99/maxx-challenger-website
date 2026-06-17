@@ -48,7 +48,7 @@ function Navbar() {
               </button>
 
               {showDropdown && (
-                <div className="absolute top-10 left-0 bg-white shadow-xl rounded-2xl w-64 py-3">
+                <div className="absolute top-full top-10 left-0 bg-white shadow-xl rounded-2xl w-64 py-3">
 
                   <Link
                     to="/products/safety-helmets"

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import productDetails from "../data/productDetails";
-
+import { Helmet } from "react-helmet-async";
 function ProductDetail() {
   const { slug } = useParams();
 
@@ -17,6 +17,23 @@ function ProductDetail() {
   }
 
   return (
+  <>
+    <Helmet>
+      <title>
+        {`${product.name} in Hyderabad | Maxx Challenger Safety Products`}
+      </title>
+
+      <meta
+        name="description"
+        content={`${product.name} supplier in Hyderabad. Premium industrial safety products for workplace protection.`}
+      />
+
+      <meta
+        name="keywords"
+        content={`${product.name}, safety products Hyderabad, PPE products`}
+      />
+    </Helmet>
+
     <section className="py-24 bg-[#F8FAFC] min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
 
@@ -33,7 +50,6 @@ function ProductDetail() {
 
           {/* Product Details */}
           <div>
-
             <span className="bg-yellow-100 text-yellow-700 px-5 py-2 rounded-full font-semibold">
               {product.category}
             </span>
@@ -45,82 +61,14 @@ function ProductDetail() {
             <p className="text-gray-600 mt-5 text-lg leading-8">
               {product.description}
             </p>
-
-            <div className="mt-8 space-y-4">
-
-              <div>
-                <h3 className="font-bold text-xl">
-                  Material
-                </h3>
-                <p className="text-gray-600">
-                  {product.material}
-                </p>
-              </div>
-
-              <div>
-                <h3 className="font-bold text-xl">
-                  Sizes
-                </h3>
-                <p className="text-gray-600">
-                  {product.sizes}
-                </p>
-              </div>
-
-            </div>
-
-            {/* Features */}
-            <div className="mt-10">
-              <h2 className="text-2xl font-bold text-[#0B1F3A]">
-                Features
-              </h2>
-
-              <ul className="mt-5 space-y-3">
-                {product.features.map((feature, index) => (
-                  <li
-                    key={index}
-                    className="flex items-center gap-3 text-gray-700"
-                  >
-                    ✅ {feature}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Applications */}
-            <div className="mt-10">
-              <h2 className="text-2xl font-bold text-[#0B1F3A]">
-                Applications
-              </h2>
-
-              <div className="flex flex-wrap gap-3 mt-5">
-                {product.applications.map(
-                  (app, index) => (
-                    <span
-                      key={index}
-                      className="bg-white shadow px-5 py-3 rounded-full"
-                    >
-                      {app}
-                    </span>
-                  )
-                )}
-              </div>
-            </div>
-
-            {/* WhatsApp Button */}
-            <a
-              href={`https://wa.me/918328310975?text=Hi, I am interested in ${product.name}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-10 bg-yellow-400 px-8 py-4 rounded-full font-bold hover:bg-[#0B1F3A] hover:text-white transition duration-300"
-            >
-              WhatsApp Inquiry
-            </a>
-
           </div>
+
         </div>
       </div>
     </section>
-  );
+  </>
+);
+
 }
 
 export default ProductDetail;
