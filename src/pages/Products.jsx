@@ -1,5 +1,5 @@
 import helmet from "../assets/products/helmet.jpg";
-import shoes from "../assets/products/shoes.jpg";
+import shoes from "../assets/shoes/shoes.png";
 import gloves from "../assets/products/gloves.jpg";
 import jacket from "../assets/products/jacket.jpg";
 import gumboot from "../assets/products/gumboot.jpg";

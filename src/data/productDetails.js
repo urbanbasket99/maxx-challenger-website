@@ -2,197 +2,115 @@ import helmet1 from "../assets/helmets/helmet1.jpg";
 import helmet2 from "../assets/helmets/helmet2.jpg";
 import helmet3 from "../assets/helmets/helmet3.jpg";
 import helmet4 from "../assets/helmets/helmet4.jpg";
+import shoes1 from "../assets/shoes/shoes1.png";
+import shoes2 from "../assets/shoes/shoes2.png";
+import shoes3 from "../assets/shoes/shoes3.png";
+import shoes4 from "../assets/shoes/shoes4.png";
+import shoes5 from "../assets/shoes/shoes5.png";
+import shoes6 from "../assets/shoes/shoes6.png";
 
 const productDetails = {
   "industrial-safety-helmet": {
-    name: "Industrial Safety Helmet",
-    image: helmet1,
-    category: "Safety Helmet",
-    material: "HDPE Plastic",
-    sizes: "Standard Adjustable Size",
-
-    features: [
-      "High Impact Resistance",
-      "Comfortable Fit",
-      "Durable Construction",
-      "Industrial Grade Protection",
-    ],
-
-    applications: [
-      "Construction",
-      "Factories",
-      "Manufacturing",
-      "Industrial Workplaces",
-    ],
-
-    description:
-      "Premium quality industrial safety helmet designed for workplace safety and worker protection.",
-  },
-
-  "construction-safety-helmet": {
-    name: "Construction Safety Helmet",
-    image: helmet2,
-    category: "Safety Helmet",
-    material: "ABS Plastic",
-    sizes: "Adjustable",
-
-    features: [
-      "Strong Build",
-      "Impact Protection",
-      "Lightweight Design",
-      "Comfortable Usage",
-    ],
-
-    applications: [
-      "Construction Sites",
-      "Civil Engineering",
-      "Industrial Projects",
-    ],
-
-    description:
-      "Durable construction safety helmet suitable for high-risk workplaces.",
-  },
-
-  "heavy-duty-safety-helmet": {
-    name: "Heavy Duty Safety Helmet",
-    image: helmet3,
-    category: "Heavy Duty Helmet",
-    material: "HDPE",
-    sizes: "Standard",
-
-    features: [
-      "Heavy Impact Resistance",
-      "Premium Quality",
-      "Industrial Protection",
-    ],
-
-    applications: [
-      "Heavy Industries",
-      "Factories",
-      "Warehouses",
-    ],
-
-    description:
-      "Heavy-duty helmet designed for industrial-grade worker protection.",
-  },
-
-  "industrial-load-carry-helmet": {
-    name: "Industrial Load Carry Helmet",
-    image: helmet4,
-    category: "Safety Helmet",
-    material: "Industrial Polymer",
-    sizes: "Adjustable",
-
-    features: [
-      "Strong Material",
-      "Worker Safety",
-      "Comfortable Design",
-    ],
-
-    applications: [
-      "Warehouses",
-      "Factories",
-      "Construction",
-    ],
-
-    description:
-      "Reliable industrial safety helmet for workplace safety.",
-  },
-  "safety-shoes": {
-  name: "Safety Shoes",
+  name: "Ventilation Ratchet Safety Helmet",
   image: helmet1,
-  category: "Safety Shoes",
-  material: "Leather & PVC",
-  sizes: "6, 7, 8, 9, 10",
+  category: "Safety Helmet",
 
   features: [
-    "Anti-Slip Sole",
-    "Steel Toe Protection",
-    "Comfortable Fit",
-    "Industrial Grade Quality",
+    "Impact Armor: High-density impact-resistant shell",
+    "Multi-port ventilation channels",
+    "Secure ratchet adjustment system",
+    "LDPE 6-point suspension",
+    "Universal 30mm accessory slots",
+    "All-day comfort design",
   ],
 
   applications: [
+    "Commercial Construction",
+    "Residential Construction",
+    "Heavy Manufacturing",
+    "Oil & Gas Industry",
+    "Petrochemical Plants",
+    "Forestry Work",
+  ],
+
+  specification: {
+    Certification: "IS:2925:1984",
+    Material: "HDPE",
+    Weight: "360 GMS",
+    Suspension: "LDPE 6-Point Ratchet Suspension",
+    AccessorySlots: "Universal 30mm",
+    AirVentilation: "Yes",
+    RatchetAdjustment: "Yes",
+    Colors: "White, Yellow, Blue, Green, Grey, Orange",
+  },
+
+  description:
+    "Built for the hardest days on the job. Engineered to withstand high-impact environments, Maxx Challenger Safety Helmets combine heavy-duty industrial defense with ergonomic comfort.",
+},
+ "construction-safety-helmet": {
+  name: "Executive Ratchet Safety Helmet",
+  image: helmet2,
+  category: "Safety Helmet",
+
+  features: [
+    "High-density HDPE shell",
+    "6-point LDPE ratchet suspension",
+    "Lightweight design",
+    "Comfortable fit",
+    "Industrial-grade protection",
+    "ISI Certified",
+  ],
+
+  applications: [
+    "Construction Sites",
+    "Civil Engineering",
+    "Industrial Projects",
     "Factories",
+  ],
+
+  specification: {
+    Certification: "IS:2925:1984",
+    Material: "HDPE",
+    Weight: "360 GMS",
+    Suspension: "LDPE 6-Point Ratchet Suspension",
+    RatchetAdjustment: "Yes",
+    Colors: "White, Yellow, Blue, Green, Grey, Orange",
+  },
+
+  description:
+    "Executive Ratchet Safety Helmet designed for superior workplace protection with a secure and comfortable fit.",
+},
+  "heavy-duty-safety-helmet": {
+  name: "Labour / Nape Type Safety Helmet",
+  image: helmet3,
+  category: "Safety Helmet",
+
+  features: [
+    "Economical industrial protection",
+    "HDPE & PPCP shell",
+    "Lightweight construction",
+    "Comfortable suspension system",
+    "Suitable for daily site work",
+    "ISI Certified",
+  ],
+
+  applications: [
     "Construction",
+    "Factories",
     "Warehouses",
     "Industrial Workplaces",
   ],
 
-  description:
-    "Durable industrial safety shoes designed for worker protection.",
-},
-
-"safety-gloves": {
-  name: "Safety Gloves",
-  image: helmet1,
-  category: "Safety Gloves",
-  material: "Rubber / Cotton",
-
-  sizes: "Standard",
-
-  features: [
-    "Hand Protection",
-    "Comfort Grip",
-    "Industrial Safety",
-  ],
-
-  applications: [
-    "Industrial Work",
-    "Construction",
-    "Factories",
-  ],
+  specification: {
+    Certification: "IS:2925:1984",
+    Material: "HDPE & PPCP",
+    Weight: "240 GMS",
+    Suspension: "LDPE Suspension",
+    Colors: "White, Yellow, Blue, Green, Grey, Orange",
+  },
 
   description:
-    "Protective gloves for industrial safety and worker protection.",
-},
-
-"reflective-jackets": {
-  name: "Reflective Jackets",
-  image: helmet1,
-  category: "Safety Jackets",
-  material: "Reflective Fabric",
-
-  sizes: "M, L, XL",
-
-  features: [
-    "High Visibility",
-    "Comfortable Fit",
-    "Worker Safety",
-  ],
-
-  applications: [
-    "Road Work",
-    "Construction",
-    "Industrial Safety",
-  ],
-
-  description:
-    "High visibility jackets designed for worker protection.",
-},
-
-"gumboots": {
-  name: "PVC Gumboots",
-  image: helmet1,
-  category: "Safety Gumboots",
-  material: "PVC",
-
-  sizes: "6–10",
-
-  features: [
-    "Waterproof",
-    "Heavy Duty",
-    "Durable Material",
-  ],
-
-  applications: [
-    "Chemical Industry",
-    "Industrial Work",
-    "Construction",
-  ],
-
-  description:
-    "Heavy-duty waterproof gumboots for workplace safety.",
+    "Labour / Nape Type Safety Helmet designed for reliable everyday industrial protection.",
 },
 };
 

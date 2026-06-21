@@ -26,7 +26,7 @@ const features = [
 
 function WhyChooseUs() {
   return (
-    <section className="py-24 bg-[#F8FAFC]">
+    <section className="bg-[#F8FAFC] py-20">
 
       <div className="max-w-7xl mx-auto px-6">
 

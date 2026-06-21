@@ -20,7 +20,7 @@ function Navbar() {
             <img
               src={Logo}
               alt="Maxx Challenger"
-              className="h-16 md:h-20 object-contain"
+               className="h-20 w-auto object-contain"
             />
           </Link>
 

@@ -2,53 +2,57 @@ import { Link } from "react-router-dom";
 
 const products = [
   {
-    title: "Safety Helmets",
+    title: "Head Protection",
     image: "/helmet.jpg?v=1",
-    slug: "safety-helmets",
+    slug: "head-protection",
+    desc: "Industrial safety helmets designed for construction, manufacturing and workplace protection.",
   },
   {
-    title: "Safety Shoes",
+    title: "Foot Protection",
     image: "/shoes.jpg?v=1",
-    slug: "safety-shoes",
+    slug: "foot-protection",
+    desc: "Safety shoes and gumboots designed for maximum workplace safety and comfort.",
   },
   {
-    title: "Safety Gloves",
+    title: "Hand Protection",
     image: "/gloves.jpg",
-    slug: "safety-gloves",
+    slug: "hand-protection",
+    desc: "Industrial safety gloves for welding, handling and general work applications.",
   },
   {
-    title: "Reflective Jackets",
+    title: "Body Protection",
     image: "/jacket.jpg",
-    slug: "reflective-jackets",
+    slug: "body-protection",
+    desc: "Reflective jackets, coveralls and protective workwear for industrial environments.",
   },
   {
-    title: "PVC Gumboots",
-    image: "/gumboots.jpg",
-    slug: "gumboots",
+    title: "Fall Protection",
+    image: "/harness.jpg",
+    slug: "fall-protection",
+    desc: "Safety belts, harnesses and fall arrest systems for working at heights.",
   },
   {
-    title: "Road Safety Products",
+    title: "Road Safety",
     image: "/roadsafety.jpg",
     slug: "road-safety",
+    desc: "Traffic cones, barricades and road safety equipment for industrial projects.",
   },
 ];
-
 function ProductCategories() {
   return (
-    <section className="py-24 bg-[#F8FAFC]">
+    <section className="py-8 bg-[#F8FAFC]">
 
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
         <div className="text-center mb-16">
 
-          <span className="text-yellow-500 font-semibold uppercase tracking-widest">
-            Our Products
-          </span>
-
-          <h2 className="text-4xl md:text-5xl font-bold text-[#0B1F3A] mt-4">
-            Industrial Safety Solutions
-          </h2>
+          <div className="inline-block bg-yellow-400 text-black px-4 py-2 rounded-full font-semibold text-sm uppercase mb-4">
+  Safety Categories
+</div>
+<h2 className="text-4xl font-extrabold text-[#0B1F3A] mb-4">
+  Complete Industrial Safety Solutions
+</h2>
 
           <p className="text-gray-600 mt-5 text-lg max-w-3xl mx-auto">
             Explore premium industrial safety products
