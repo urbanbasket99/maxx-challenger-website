@@ -51,14 +51,14 @@ function Navbar() {
                 <div className="absolute top-full top-10 left-0 bg-white shadow-xl rounded-2xl w-64 py-3">
 
                   <Link
-                    to="/products/safety-helmets"
+                    to="/products/head-protection"
                     className="block px-5 py-3 hover:bg-gray-100"
                   >
                     Safety Helmets
                   </Link>
 
                   <Link
-                    to="/products/safety-shoes"
+                    to="/products/foot-protection"
                     className="block px-5 py-3 hover:bg-gray-100"
                   >
                     Safety Shoes

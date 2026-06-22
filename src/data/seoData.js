@@ -89,6 +89,31 @@ const seoPages = {
       "Convex Mirrors",
     ],
   },
+  "construction-safety-equipment-hyderabad": {
+  title: "Construction Safety Equipment Hyderabad",
+  keyword: "Construction Safety Equipment Hyderabad",
+  description:
+    "Leading supplier of construction safety equipment in Hyderabad including helmets, safety shoes, gloves, jackets and PPE products.",
+  products: [
+    "Safety Helmets",
+    "Safety Shoes",
+    "Safety Gloves",
+    "Reflective Jackets",
+  ],
+},
+
+"factory-safety-equipment-hyderabad": {
+  title: "Factory Safety Equipment Hyderabad",
+  keyword: "Factory PPE Hyderabad",
+  description:
+    "Maxx Challenger supplies factory safety equipment and PPE products for industrial and manufacturing units in Hyderabad.",
+  products: [
+    "Industrial Helmets",
+    "Industrial Gloves",
+    "Safety Shoes",
+    "Industrial PPE",
+  ],
+},
 };
 
 export default seoPages;

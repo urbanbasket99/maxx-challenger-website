@@ -1,19 +1,16 @@
 import { useParams } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 import seoPages from "../data/seoData";
-import CTA from "../components/CTA";
-
+import { Link } from "react-router-dom";
 function SeoLandingPage() {
   const { slug } = useParams();
 
-  const data = seoPages[slug];
+  const page = seoPages[slug];
 
-  if (!data) {
+  if (!page) {
     return (
-      <div className="text-center py-40 text-4xl font-bold">
-        Page Not Found
+      <div className="text-center py-20">
+        <h1>Page Not Found</h1>
       </div>
     );
   }
@@ -21,176 +18,62 @@ function SeoLandingPage() {
   return (
     <>
       <Helmet>
-        <title>{data.title}</title>
+        <title>{page.title} | Maxx Challenger Safety Products</title>
 
         <meta
           name="description"
-          content={data.description}
+          content={page.description}
+        />
+
+        <meta
+          name="keywords"
+          content={page.keyword}
         />
       </Helmet>
 
-      <div className="bg-[#F8FAFC]">
+      <section className="bg-[#0B1F3A] text-white py-20">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h1 className="text-5xl font-bold mb-6">
+            {page.title}
+          </h1>
 
-        {/* Hero */}
-        <section className="bg-[#0B1F3A] text-white py-24 text-center">
+          <p className="text-xl text-gray-300">
+            {page.description}
+          </p>
+        </div>
+      </section>
 
-          <div className="max-w-5xl mx-auto px-6">
+      <section className="max-w-6xl mx-auto px-6 py-16">
+        <h2 className="text-3xl font-bold mb-8">
+          Our Products
+        </h2>
 
-            <span className="text-yellow-400 uppercase tracking-widest font-semibold">
-              Hyderabad Industrial Safety
-            </span>
-
-            <h1 className="text-5xl md:text-6xl font-bold mt-4">
-              {data.title}
-            </h1>
-
-            <p className="mt-6 text-lg text-gray-300 leading-8">
-              {data.description}
-            </p>
-
-          </div>
-
-        </section>
-
-        {/* Content */}
-        <section className="py-24">
-
-          <div className="max-w-7xl mx-auto px-6">
-
-            <h2 className="text-4xl font-bold text-[#0B1F3A]">
-  Trusted Supplier in Hyderabad
-</h2>
-
-<p className="text-gray-600 mt-6 text-lg leading-8">
-  Maxx Challenger Safety Products is a trusted
-  supplier of premium industrial safety products
-  in Hyderabad, serving industries in Jeedimetla,
-  Kukatpally, Patancheru, Balanagar, Medchal,
-  Cherlapally and nearby industrial areas.
-</p>
-
-<p className="text-gray-600 mt-5 text-lg leading-8">
-  We provide premium workplace safety equipment
-  for factories, warehouses, construction sites,
-  engineering companies and industrial businesses
-  with competitive pricing and reliable delivery.
-</p>
-
-{/* Products */}
-<h2 className="text-3xl font-bold mt-12 text-[#0B1F3A]">
-  Products We Supply
-</h2>
-
-<div className="grid md:grid-cols-2 gap-5 mt-8">
-
-  {data.products.map((item, index) => (
-    <div
-      key={index}
-      className="bg-[#F8FAFC] rounded-2xl p-5 shadow-sm font-semibold"
-    >
-      ✔ {item}
-    </div>
-  ))}
-
-</div>
-
-{/* Industries */}
-<h2 className="text-3xl font-bold mt-14 text-[#0B1F3A]">
-  Industries We Serve
-</h2>
-
-<div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-8">
-
-  {[
-    "Construction",
-    "Manufacturing",
-    "Warehousing",
-    "Logistics",
-    "Engineering",
-    "Factories",
-    "Infrastructure",
-    "Industrial Plants",
-  ].map((item, index) => (
-    <div
-      key={index}
-      className="bg-[#F8FAFC] rounded-2xl p-5 text-center shadow-sm font-semibold"
-    >
-      {item}
-    </div>
-  ))}
-
-</div>
-
-{/* Internal Links */}
-<h2 className="text-3xl font-bold mt-14 text-[#0B1F3A]">
-  Explore Safety Products
-</h2>
-
-<div className="flex flex-wrap gap-4 mt-8">
-
+        <div className="grid md:grid-cols-2 gap-6">
+          {page.products.map((product, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-xl shadow-md p-6"
+            >
+              {product}
+            </div>
+          ))}
+        </div>
+      </section>
+<div className="flex gap-4 mt-10">
   <Link
-    to="/products/safety-helmets"
-    className="bg-[#0B1F3A] text-white px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-[#0B1F3A] transition"
+    to="/products"
+    className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold"
   >
-    Safety Helmets
+    View Products
   </Link>
 
   <Link
-    to="/products/safety-shoes"
-    className="bg-[#0B1F3A] text-white px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-[#0B1F3A] transition"
+    to="/contact"
+    className="bg-[#0B1F3A] text-white px-6 py-3 rounded-lg font-semibold"
   >
-    Safety Shoes
+    Get Free Quote
   </Link>
-
-  <Link
-    to="/products/safety-gloves"
-    className="bg-[#0B1F3A] text-white px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-[#0B1F3A] transition"
-  >
-    Safety Gloves
-  </Link>
-
 </div>
-
-{/* FAQ */}
-<h2 className="text-3xl font-bold mt-14 text-[#0B1F3A]">
-  Frequently Asked Questions
-</h2>
-
-<div className="space-y-6 mt-8">
-
-  <div className="bg-[#F8FAFC] p-6 rounded-2xl">
-    <h3 className="font-bold text-xl">
-      Do you provide bulk industrial safety products?
-    </h3>
-
-    <p className="text-gray-600 mt-3">
-      Yes, we supply bulk orders for factories,
-      warehouses, construction companies and
-      industrial businesses in Hyderabad.
-    </p>
-  </div>
-
-  <div className="bg-[#F8FAFC] p-6 rounded-2xl">
-    <h3 className="font-bold text-xl">
-      Which areas do you supply in Hyderabad?
-    </h3>
-
-    <p className="text-gray-600 mt-3">
-      We supply safety products in Jeedimetla,
-      Kukatpally, Balanagar, Medchal,
-      Patancheru, Cherlapally and nearby areas.
-    </p>
-  </div>
-
-</div>
-
-          </div>
-
-        </section>
-
-        <CTA />
-
-      </div>
     </>
   );
 }
