@@ -1,6 +1,6 @@
 import helmet1 from "../assets/helmets/helmet1.png";
 import helmet2 from "../assets/helmets/helmet2.png";
-import helmet3 from "../assets/helmets/helmet3.jpg";
+import helmet3 from "../assets/helmets/helmet3.png";
 import helmet4 from "../assets/helmets/helmet4.jpg";
 import shoes1 from "../assets/shoes/shoes1.png";
 import shoes2 from "../assets/shoes/shoes2.png";
