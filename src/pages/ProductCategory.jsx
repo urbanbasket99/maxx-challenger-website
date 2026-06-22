@@ -75,7 +75,7 @@ function ProductCategory() {
     <img
       src={item.image}
       alt={item.name}
-      className="w-full h-[320px] object-cover group-hover:scale-110 transition duration-700"
+      className="w-80 h-[320px] object-cover group-hover:scale-110 transition duration-700"
     />
 
   </div>
