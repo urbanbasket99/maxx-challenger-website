@@ -4,7 +4,7 @@ import gloves from "../assets/products/gloves.jpg";
 import jacket from "../assets/products/jacket.jpg";
 import gumboot from "../assets/products/gumboot.jpg";
 import roadSafety from "../assets/products/road-safety.jpg";
-import helmet1 from "../assets/helmets/helmet1.jpg";
+import helmet1 from "../assets/helmets/helmet1.png";
 import helmet2 from "../assets/helmets/helmet2.jpg";
 import helmet3 from "../assets//helmets/helmet3.jpg";
 
