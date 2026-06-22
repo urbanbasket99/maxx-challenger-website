@@ -65,21 +65,23 @@ function Navbar() {
                   </Link>
 
                   <Link
-                    to="/products/safety-gloves"
+                    to="/products/hand-protection"
                     className="block px-5 py-3 hover:bg-gray-100"
                   >
                     Safety Gloves
                   </Link>
 
                   <Link
-                    to="/products/reflective-jackets"
+
+                  
+                    to="/products/body-protection"
                     className="block px-5 py-3 hover:bg-gray-100"
                   >
                     Reflective Jackets
                   </Link>
 
                   <Link
-                    to="/products/gumboots"
+                    to="/products/fall-protection"
                     className="block px-5 py-3 hover:bg-gray-100"
                   >
                     PVC Gumboots
