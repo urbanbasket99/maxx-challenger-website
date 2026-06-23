@@ -17,9 +17,8 @@ function ProductDetail() {
 
 const [activeTab, setActiveTab] = useState("features");
 
-const [selectedImage, setSelectedImage] = useState(
-  product.images?.[0] || product.image
-);
+
+const [selectedImage, setSelectedImage] = useState("");
 
   if (!product) {
     return (
