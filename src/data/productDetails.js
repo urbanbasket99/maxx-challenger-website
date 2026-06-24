@@ -112,6 +112,37 @@ const productDetails = {
   description:
     "Labour / Nape Type Safety Helmet designed for reliable everyday industrial protection.",
 },
+"safety-shoes": {
+  name: "Safety Shoes",
+
+  images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
+
+  image: shoes1,
+
+  category: "Safety Shoes",
+
+  features: [
+    "Steel Toe Protection",
+    "Anti Slip Sole",
+    "Oil Resistant",
+    "Comfort Fit",
+  ],
+
+  applications: [
+    "Construction",
+    "Factories",
+    "Warehouses",
+  ],
+
+  specification: {
+    Upper: "Leather",
+    Sole: "PU",
+    Sizes: "6-10",
+  },
+
+  description:
+    "Industrial safety shoes designed for workplace protection.",
+},
 };
 
 export default productDetails;
