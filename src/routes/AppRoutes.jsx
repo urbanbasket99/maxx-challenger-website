@@ -10,6 +10,13 @@ import ProductCategory from "../pages/ProductCategory";
 import Blog from "../pages/Blog";
 import BlogDetail from "../pages/BlogDetail";
 import ProductDetail from "../pages/ProductDetail";
+import SafetyShoesManufacturersHyderabad from "../pages/SafetyShoesManufacturersHyderabad";
+import SafetyShoesForConstructionWorkers from "../pages/SafetyShoesForConstructionWorkers";
+import SafetyHelmetsForConstructionWorkers from "../pages/SafetyHelmetsForConstructionWorkers";
+import ReflectiveJacketsForConstructionWorkers from "../pages/ReflectiveJacketsForConstructionWorkers";
+import SafetyShoesForFactoryWorkers from "../pages/SafetyShoesForFactoryWorkers";
+import SafetyShoesFactoryPage from "../pages/SafetyShoesFactoryPage";
+import SafetyHelmetsForFactoryWorkers from "../pages/SafetyHelmetsForFactoryWorkers";
 
 function AppRoutes() {
   return (
@@ -34,7 +41,35 @@ function AppRoutes() {
   path="/industrial-safety-products-hyderabad"
   element={<IndustrialSafetyHyderabad />}
 />
+<Route
+  path="/safety-shoes-manufacturers-hyderabad"
+  element={<SafetyShoesManufacturersHyderabad />}
+/>
+<Route
+ path="/safety-shoes-for-construction-workers"
+ element={<SafetyShoesForConstructionWorkers />}
+/>
+<Route
+ path="/safety-helmets-for-construction-workers"
+ element={<SafetyHelmetsForConstructionWorkers />}
+/>
+<Route
+  path="/reflective-jackets-for-construction-workers"
+  element={<ReflectiveJacketsForConstructionWorkers />}
+/>
 
+<Route
+  path="/safety-shoes-for-factory-workers"
+  element={<SafetyShoesForFactoryWorkers />}
+/>
+<Route
+  path="/safety-shoes-factory-page"
+  element={<SafetyShoesFactoryPage />}
+/>
+<Route
+  path="/safety-helmets-for-factory-workers"
+  element={<SafetyHelmetsForFactoryWorkers />}
+/>
 <Route
   path="/:slug"
   element={<SeoLandingPage />}
