@@ -64,21 +64,9 @@ function Navbar() {
                     Safety Shoes
                   </Link>
 
-                  <Link
-                    to="/products/hand-protection"
-                    className="block px-5 py-3 hover:bg-gray-100"
-                  >
-                    Safety Gloves
-                  </Link>
+                
 
-                  <Link
-
-                  
-                    to="/products/body-protection"
-                    className="block px-5 py-3 hover:bg-gray-100"
-                  >
-                    Reflective Jackets
-                  </Link>
+              
 
                   <Link
                     to="/products/fall-protection"
@@ -87,12 +75,7 @@ function Navbar() {
                     PVC Gumboots
                   </Link>
 
-                  <Link
-                    to="/products/road-safety"
-                    className="block px-5 py-3 hover:bg-gray-100"
-                  >
-                    Road Safety Products
-                  </Link>
+              
 
                 </div>
               )}
