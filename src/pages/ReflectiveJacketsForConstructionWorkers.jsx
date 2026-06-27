@@ -57,7 +57,6 @@ Reflective Jackets for Construction Workers | Bulk Supply India </title>
         <div>✅ High Visibility</div>
         <div>✅ Reflective Tape</div>
         <div>✅ MOQ from 25 Pieces</div>
-        <div>✅ Custom Logo Printing</div>
         <div>✅ Pan India Delivery</div>
 
       </div>

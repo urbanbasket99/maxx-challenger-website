@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "../assets/logo.png";
 import {
   Phone,
   Mail,
@@ -6,7 +7,6 @@ import {
   Clock,
 } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import Logo from "../assets/logo.png";
 
 function Footer() {
   return (

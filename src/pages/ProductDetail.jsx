@@ -151,7 +151,7 @@ const [selectedImage, setSelectedImage] = useState(
         : "bg-gray-200 text-gray-700 hover:bg-gray-300"
     }`}
   >
-    DESCRIPTION
+   ADDITIONAL SPECIFICATIONS
   </button>
   </div>
 
