@@ -52,7 +52,7 @@ slug: "foot-protection",
     ],
   },
 
-  "hand-protection": {
+ /* "hand-protection": {
     title: "Hand Protection",
 slug: "hand-protection",
     description:
@@ -110,7 +110,7 @@ slug: "body-protection",
 },
     ],
   },
-  
+  */
 };
 
 export default productCategories;

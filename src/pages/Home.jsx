@@ -136,7 +136,7 @@ function Home() {
           View Details →
         </span>
       </a>
-
+*/
     </div>
 
   </div>

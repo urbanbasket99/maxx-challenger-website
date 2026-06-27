@@ -13,30 +13,7 @@ const products = [
     slug: "foot-protection",
     desc: "Safety shoes and gumboots designed for maximum workplace safety and comfort.",
   },
-  {
-    title: "Hand Protection",
-    image: "/gloves.jpg",
-    slug: "hand-protection",
-    desc: "Industrial safety gloves for welding, handling and general work applications.",
-  },
-  {
-    title: "Body Protection",
-    image: "/jacket.jpg",
-    slug: "body-protection",
-    desc: "Reflective jackets, coveralls and protective workwear for industrial environments.",
-  },
-  {
-    title: "Fall Protection",
-    image: "/harness.jpg",
-    slug: "fall-protection",
-    desc: "Safety belts, harnesses and fall arrest systems for working at heights.",
-  },
-  {
-    title: "Road Safety",
-    image: "/roadsafety.jpg",
-    slug: "road-safety",
-    desc: "Traffic cones, barricades and road safety equipment for industrial projects.",
-  },
+ 
 ];
 function ProductCategories() {
   return (
