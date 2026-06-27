@@ -107,35 +107,21 @@ function Footer() {
           <div className="flex flex-col gap-4 text-gray-300">
 
             <Link
-              to="/products/safety-helmets"
+              to="products/head-protection"
               className="hover:text-yellow-400 transition"
             >
               Safety Helmets
             </Link>
 
             <Link
-              to="/products/safety-shoes"
+              to="products/foot-protection"
               className="hover:text-yellow-400 transition"
             >
               Safety Shoes
             </Link>
-
+        
             <Link
-              to="/products/safety-gloves"
-              className="hover:text-yellow-400 transition"
-            >
-              Safety Gloves
-            </Link>
-
-            <Link
-              to="/products/reflective-jackets"
-              className="hover:text-yellow-400 transition"
-            >
-              Reflective Jackets
-            </Link>
-
-            <Link
-              to="/products/gumboots"
+              to="products/foot-protection"
               className="hover:text-yellow-400 transition"
             >
               PVC Gumboots
