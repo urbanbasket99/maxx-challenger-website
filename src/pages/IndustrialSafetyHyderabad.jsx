@@ -57,13 +57,13 @@ function IndustrialSafetyHyderabad() {
             <div className="bg-white rounded-[35px] p-10 shadow-md">
 
               <h2 className="text-4xl font-bold text-[#0B1F3A]">
-                Trusted Industrial Safety Products
+                Trusted Industrial Safety Products Manufacturer and
                 Supplier in Hyderabad
               </h2>
 
               <p className="text-gray-600 mt-6 leading-8 text-lg">
                 Maxx Challenger Safety Products is one
-                of the trusted suppliers of industrial
+                of the trusted manufacturer and suppliers of industrial
                 safety products in Hyderabad, serving
                 factories, warehouses, construction
                 companies, logistics firms and industrial
