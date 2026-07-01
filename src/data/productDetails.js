@@ -8,6 +8,9 @@ import shoes3 from "../assets/shoes/shoes3.png";
 import shoes4 from "../assets/shoes/shoes4.png";
 import shoes5 from "../assets/shoes/shoes5.png";
 import shoes6 from "../assets/shoes/shoes6.png";
+import gumboot1 from "../assets/gumboots/gumboot1.jpg";
+import gumboot2 from "../assets/gumboots/gumboot2.jpg";
+
 
 const productDetails = {
   "industrial-safety-helmet": {
@@ -118,6 +121,37 @@ const productDetails = {
   images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
 
   image: shoes1,
+
+  category: "Safety Shoes",
+
+  features: [
+    "Steel Toe Protection",
+    "Anti Slip Sole",
+    "Oil Resistant",
+    "Comfort Fit",
+  ],
+
+  applications: [
+    "Construction",
+    "Factories",
+    "Warehouses",
+  ],
+
+  specification: {
+    Upper: "Leather",
+    Sole: "PU",
+    Sizes: "6-10",
+  },
+
+  description:
+    "Industrial safety shoes designed for workplace protection.",
+},
+"pvc-gumboots": {
+  name: "PVC Gumboots",             
+
+  images: [gumboot1, gumboot2],
+
+  image: gumboot1,
 
   category: "Safety Shoes",
 

@@ -17,6 +17,7 @@ import ReflectiveJacketsForConstructionWorkers from "../pages/ReflectiveJacketsF
 import SafetyShoesForFactoryWorkers from "../pages/SafetyShoesForFactoryWorkers";
 import SafetyShoesFactoryPage from "../pages/SafetyShoesFactoryPage";
 import SafetyHelmetsForFactoryWorkers from "../pages/SafetyHelmetsForFactoryWorkers";
+import PVCGumboots from "../pages/Pvcgumboots";
 
 function AppRoutes() {
   return (
@@ -28,6 +29,8 @@ function AppRoutes() {
       <Route path="/products" element={<Products />} />
 
       <Route path="/contact" element={<Contact />} />
+
+      <Route path="/pvc-gumboots" element={<PVCGumboots />} />
       <Route
   path="/products/:category"
   element={<ProductCategory />}

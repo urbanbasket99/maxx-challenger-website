@@ -33,6 +33,8 @@ slug: "head-protection",
     },
   ],
 },
+
+
  "foot-protection": {
    title: "Foot Protection",
 slug: "foot-protection",
@@ -49,8 +51,28 @@ slug: "foot-protection",
         slug: "industrial-safety-shoes",
         image: shoes,
       },
-    ],
+      ],
+      
+           
   },
+
+   "pvc-gumboots": {
+ 
+slug: "pvc-gumboots",
+    description:
+      "Premium industrial safety shoes for maximum worker protection.",
+    products: [
+      {
+        slug: "pvc-gumboots",
+  name: "PVC Gumboots",
+  image: gumboot,
+      },
+   
+      ],
+      
+           
+  },
+  
 
  /* "hand-protection": {
     title: "Hand Protection",

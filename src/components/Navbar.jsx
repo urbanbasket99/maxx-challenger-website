@@ -68,12 +68,12 @@ function Navbar() {
 
               
 
-                  <Link
-                    to="/products/foot-protection"
-                    className="block px-5 py-3 hover:bg-gray-100"
-                  >
-                    PVC Gumboots
-                  </Link>
+                 <Link
+  to="/products/pvc-gumboots"
+  className="block px-5 py-3 hover:bg-gray-100"
+>
+  PVC Gumboots
+</Link>
 
               
 
