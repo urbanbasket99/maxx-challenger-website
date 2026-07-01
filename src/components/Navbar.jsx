@@ -69,7 +69,7 @@ function Navbar() {
               
 
                   <Link
-                    to="/products/fall-protection"
+                    to="/products/foot-protection"
                     className="block px-5 py-3 hover:bg-gray-100"
                   >
                     PVC Gumboots
