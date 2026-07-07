@@ -55,6 +55,39 @@ function ProductCategory() {
           </div>
 
         </section>
+        {/* ABOUT HEAD PROTECTION */}
+
+{category === "head-protection" && (
+<section className="py-20 bg-white">
+  <div className="max-w-6xl mx-auto px-6">
+
+    <span className="text-yellow-500 uppercase tracking-widest font-semibold">
+      Built for the Hardest Days on the Job
+    </span>
+
+    <h2 className="text-5xl font-bold text-[#0B1F3A] mt-4 mb-8">
+      Industrial Safety Helmets Engineered for Maximum Protection
+    </h2>
+
+    <p className="text-lg text-gray-700 leading-9 mb-6">
+      When you're on-site, your helmet isn't just gear—it's your lifeline.
+      Engineered to withstand high-impact environments, Maxx Challenger
+      Safety Helmets combine heavy-duty industrial protection with an
+      ergonomic design that remains comfortable throughout long working
+      hours.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-9">
+      Whether you're working on high-rise construction projects,
+      manufacturing facilities, warehouses or infrastructure sites,
+      our IS 2925 certified safety helmets deliver dependable impact
+      protection, superior comfort and long-lasting durability for
+      demanding industrial environments.
+    </p>
+
+  </div>
+</section>
+)}
 
         {/* Products */}
         <section className="py-24">
@@ -83,9 +116,7 @@ function ProductCategory() {
   {/* Content */}
   <div className="p-8">
 
-    <span className="inline-block bg-yellow-100 text-yellow-700 text-sm font-semibold px-4 py-2 rounded-full mb-4">
-      Industrial Safety
-    </span>
+    
 
     <h3 className="text-2xl font-bold text-[#0B1F3A]">
       {item.name}

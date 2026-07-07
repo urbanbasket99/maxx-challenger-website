@@ -17,17 +17,17 @@ slug: "head-protection",
 
   products: [
     {
-      name: "Industrial Safety Helmet",
+      name: "Ventilation Ratchet Safety Helmet",
        slug: "industrial-safety-helmet",
       image: helmet1,
     },
     {
-      name: "Construction Safety Helmet",
+      name: "Executive Ratchet Safety Helmet",
       slug: "construction-safety-helmet",
       image: helmet2,
     },
     {
-      name: "HDPE Safety Helmet",
+      name: "Nape Type Safety Helmet",
       slug: "heavy-duty-safety-helmet",
       image: helmet3,
     },

@@ -54,6 +54,7 @@ function SafetyHelmets() {
         </div>
 
       </section>
+      
       <section className="py-16 bg-white">
   <div className="max-w-7xl mx-auto px-6 text-center">
     <h2 className="text-4xl font-bold text-[#0B1F3A] mb-8">
