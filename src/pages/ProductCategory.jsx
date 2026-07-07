@@ -88,7 +88,41 @@ function ProductCategory() {
   </div>
 </section>
 )}
+{/* FOOT PROTECTION INTRO */}
 
+{category === "foot-protection" && (
+<section className="py-20 bg-white">
+  <div className="max-w-6xl mx-auto px-6">
+
+    <span className="text-yellow-500 uppercase tracking-widest font-semibold">
+      Ultimate Protection. Uncompromised Comfort.
+    </span>
+
+    <h2 className="text-5xl font-bold text-[#0B1F3A] mt-4 mb-8">
+      Industrial Safety Shoes Built for Every Workplace
+    </h2>
+
+    <p className="text-lg text-gray-700 leading-9 mb-6">
+      Engineered for demanding industrial environments, Maxx Challenger PVC
+      Synthetic Safety Shoes deliver the perfect blend of rugged durability,
+      advanced safety features and all-day comfort. Built with a premium
+      synthetic upper and a high-grade PVC injection sole, these shoes provide
+      reliable protection against workplace hazards while remaining lightweight
+      and comfortable throughout long shifts.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-9">
+      Whether you're working in construction, manufacturing, warehousing,
+      engineering, logistics or heavy industries, Maxx Challenger Safety Shoes
+      help you move with confidence. Available in Steel Toe, Composite Toe,
+      Anti-Static (ESD) and Oil-Resistant variants, every pair is designed to
+      meet modern industrial safety requirements while delivering exceptional
+      comfort and durability.
+    </p>
+
+  </div>
+</section>
+)}
         {/* Products */}
         <section className="py-24">
 

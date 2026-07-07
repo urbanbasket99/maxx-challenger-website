@@ -201,6 +201,7 @@ const [selectedImage, setSelectedImage] = useState(
 
  </div>
           </div>
+          
 <div className="grid grid-cols-2 gap-4 mt-6">
    <div className="bg-white p-4 rounded-lg shadow">
     ISI Certified
