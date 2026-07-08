@@ -238,7 +238,7 @@ const productDetails = {
 "pvc-gumboots-double-colour": {
   name: "PVC Gumboots - Double Colour",
 
-  images: [gumboot1, gumboot2],
+  images: [gumboot1],
 
   image: gumboot1,
 
@@ -262,9 +262,45 @@ const productDetails = {
     Material:"PVC (Polyvinyl Chloride)",
     Height:"Full-length knee boot (approx. 13 inches )",
     SafetyFeatures:"Available in Soft Toe or Steel Toe Cap",  
-    Upper: "Leather",
-    Sole: "PU",
-    Sizes: "6-10",
+    Soleype:"Cleated, anti-skid, oil-resistant outsole",
+    Lining:"Quick-drying, sweat-absorbent polyester fabric lining",
+    Colour:"Black / Red(sole)",
+  
+  },
+
+  description:
+    "Industrial safety shoes designed for workplace protection.",
+} ,
+
+"pvc-gumboots": {
+  name: "PVC Gumboots ",
+
+  images: [gumboot2],
+
+  image: gumboot2,
+
+  category: "Safety Shoes",
+
+  features: [
+    "100% Seamless Waterproofing",
+    "Superior Slip Resistance",
+    "Chemical & Oil Resistant",
+    "Ergonomic Fatigue Reduction",
+  ],
+
+  applications: [
+    "Agriculture & Farming",
+    "Construction & Civil Engineering",
+    "Food Processing & Janitorial",
+    "Mining & Aquaculture"
+  ],
+
+  specification: {
+    Material:"PVC (Polyvinyl Chloride)",
+    Height:"Knee Length boot (approx. 11 inches )",    
+    Soleype:" Oil-resistant outsole",
+        Colour:"Black",
+  
   },
 
   description:

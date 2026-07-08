@@ -7,6 +7,9 @@ import roadSafety from "../assets/products/road-safety.jpg";
 import helmet1 from "../assets/helmets/helmet1.png";
 import helmet2 from "../assets/helmets/helmet2.png";
 import helmet3 from "../assets//helmets/helmet3.png";
+import gumboot1 from "../assets/gumboots/gumboot1.jpg";
+import gumboot2 from "../assets/gumboots/gumboot2.jpg";
+
 
 const productCategories = {
  "head-protection": {
@@ -75,7 +78,7 @@ slug: "pvc-gumboots",
    {
         slug: "pvc-gumboots",
         name: "PVC Gumboots",
-        image: gumboot,
+        image: gumboot2,
       },
       ],
       

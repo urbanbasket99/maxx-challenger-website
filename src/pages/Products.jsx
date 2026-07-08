@@ -21,30 +21,14 @@ const products = [
     slug: "safety-shoes",
     desc: "Durable industrial safety shoes for worker protection.",
   },
-  {
-    title: "Safety Gloves",
-    image: gloves,
-    slug: "safety-gloves",
-    desc: "Protective gloves for industrial safety.",
-  },
-  {
-    title: "Reflective Jackets",
-    image: jacket,
-    slug: "reflective-jackets",
-    desc: "High visibility jackets for worker safety.",
-  },
+ 
   {
     title: "PVC Gumboots",
     image: gumboot,
     slug: "gumboots",
     desc: "Heavy-duty waterproof gumboots.",
   },
-  {
-    title: "Road Safety Products",
-    image: roadSafety,
-    slug: "road-safety",
-    desc: "Barriers, cones, studs and traffic safety products.",
-  },
+
 ];
 
 function Products() {
@@ -121,7 +105,7 @@ function Products() {
   to={`/product/${item.slug}`}
   className="bg-yellow-400 px-5 py-3 rounded-full font-semibold"
 >
- Click Test
+ View Product
 </Link>
 
   <a
