@@ -41,17 +41,22 @@ slug: "foot-protection",
     description:
       "Premium industrial safety shoes for maximum worker protection.",
     products: [
-      {
-        name: "Steel Toe Safety Shoes",
-        slug: "safety-shoes",
-        image: shoes,
-      },
-      {
-        name: "Industrial Safety Shoes",
-        slug: "industrial-safety-shoes",
-        image: shoes,
-      },
-      ],
+  {
+    name: "Elite Plus Safety Shoes",
+    slug: "elite-plus-safety-shoes",
+    image: shoes,
+  },
+  {
+    name: "Plus Safety Shoes",
+    slug: "plus-safety-shoes",
+    image: shoes,
+  },
+  {
+    name: "Classic Safety Shoes",
+    slug: "classic-safety-shoes",
+    image: shoes,
+  },
+]
       
            
   },
@@ -63,11 +68,15 @@ slug: "pvc-gumboots",
       "Premium industrial safety shoes for maximum worker protection.",
     products: [
       {
-        slug: "pvc-gumboots",
-  name: "PVC Gumboots",
-  image: gumboot,
+        slug: "pvc-gumboots-double-colour",
+        name: "PVC Gumboots - Double Colour",
+        image: gumboot,
       },
-   
+   {
+        slug: "pvc-gumboots",
+        name: "PVC Gumboots",
+        image: gumboot,
+      },
       ],
       
            

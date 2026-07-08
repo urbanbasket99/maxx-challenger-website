@@ -123,8 +123,27 @@ function ProductCategory() {
   </div>
 </section>
 )}
+{category === "pvc-gumboots" && (
+<section className="py-20 bg-white">
+  <div className="max-w-6xl mx-auto px-6">
+
+    <span className="text-yellow-500 uppercase tracking-widest font-semibold">
+      Step Into Ultimate Workplace Defense
+    </span>
+
+       <p className="text-lg text-gray-700 leading-9 mb-6">
+      When you’re wading through mud, water, chemicals, or rough terrain, ordinary footwear doesn't cut it. The Maxx Challenger  PVC Gumboot is engineered for maximum fluid defiance and relentless durability. Molded as a single, seamless piece, it offers 100% waterproof protection to keep your feet dry, safe, and comfortable through the most demanding shifts.
+    </p>
+
+    <p className="text-lg text-gray-700 leading-9">
+   From construction sites and agricultural fields to food processing units and chemical plants, these boots are built to outlast the elements.
+    </p>
+
+  </div>
+</section>
+)}
         {/* Products */}
-        <section className="py-24">
+        <section className="py-5">
 
           <div className="max-w-7xl mx-auto px-6">
 

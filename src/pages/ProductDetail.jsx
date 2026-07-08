@@ -67,6 +67,26 @@ const [selectedImage, setSelectedImage] = useState(
       className="max-h-full max-w-full object-contain rounded-[20px] transition-transform duration-300 hover:scale-125 cursor-zoom-in"
     />
   </div>
+  {/* Product Overview */}
+
+{product.overview && (
+  <div className="mt-8 mb-10">
+
+    <h2 className="text-3xl font-bold text-[#0B1F3A] mb-5">
+      {product.overview.title}
+    </h2>
+
+    {product.overview.description.map((text, index) => (
+      <p
+        key={index}
+        className="text-gray-600 text-lg leading-8 mb-4"
+      >
+        {text}
+      </p>
+    ))}
+
+  </div>
+)}
 
   {/* Thumbnails */}
   <div className="flex gap-3 mt-4 overflow-x-auto pb-2">
@@ -226,7 +246,26 @@ const [selectedImage, setSelectedImage] = useState(
         </div>
 
       </div>
-  
+
+
+{product.overview && (
+  <div className="mt-14">
+
+    <h2 className="text-4xl font-bold text-[#0B1F3A] mb-6">
+      {product.overview.title}
+    </h2>
+
+    {product.overview.description.map((text, index) => (
+      <p
+        key={index}
+        className="text-gray-700 leading-9 text-lg mb-5"
+      >
+        {text}
+      </p>
+    ))}
+
+  </div>
+)}
       {/* Related Products */}
  <div className="mt-20">
   <h2 className="text-3xl font-bold text-[#0B1F3A] mb-8">

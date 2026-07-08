@@ -53,94 +53,11 @@ function Home() {
 
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-      {/* Safety Shoes */}
-      <a
-        href="/safety-shoes-for-construction-workers"
-        className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300"
-      >
-        <div className="text-5xl mb-4">👞</div>
-
-        <h3 className="text-xl font-bold text-[#0B1F3A] mb-3">
-          Safety Shoes
-        </h3>
-
-        <p className="text-gray-600 mb-4">
-          IS 15298 certified steel toe safety shoes for
-          construction workers and industrial employees.
-        </p>
-
-        <span className="text-yellow-500 font-semibold">
-          View Details →
-        </span>
-      </a>
-
-      {/* Safety Helmets */}
-      <a
-        href="/safety-helmets-for-construction-workers"
-        className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300"
-      >
-        <div className="text-5xl mb-4">⛑️</div>
-
-        <h3 className="text-xl font-bold text-[#0B1F3A] mb-3">
-          Safety Helmets
-        </h3>
-
-        <p className="text-gray-600 mb-4">
-          IS 2925 certified industrial safety helmets
-          for construction and infrastructure projects.
-        </p>
-
-        <span className="text-yellow-500 font-semibold">
-          View Details →
-        </span>
-      </a>
-
-      {/* Reflective Jackets */}
-      <a
-        href="/reflective-jackets-for-construction-workers"
-        className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300"
-      >
-        <div className="text-5xl mb-4">🦺</div>
-
-        <h3 className="text-xl font-bold text-[#0B1F3A] mb-3">
-          Reflective Jackets
-        </h3>
-
-        <p className="text-gray-600 mb-4">
-          High visibility reflective jackets for
-          road projects, construction sites and industries.
-        </p>
-
-        <span className="text-yellow-500 font-semibold">
-          View Details →
-        </span>
-      </a>
-
-      {/* PPE Kits */}
-      <a
-        href="/ppe-kit-for-construction-sites"
-        className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300"
-      >
-        <div className="text-5xl mb-4">🛡️</div>
-
-        <h3 className="text-xl font-bold text-[#0B1F3A] mb-3">
-          PPE Kits
-        </h3>
-
-        <p className="text-gray-600 mb-4">
-          Complete PPE kits including helmets,
-          shoes, gloves, jackets and safety accessories.
-        </p>
-
-        <span className="text-yellow-500 font-semibold">
-          View Details →
-        </span>
-      </a>
-*/
-    </div>
+   </div>
 
   </div>
 </section>
+
       <section className="bg-[#3D3D42] py-12">
   <div className="max-w-7xl mx-auto px-6">
 

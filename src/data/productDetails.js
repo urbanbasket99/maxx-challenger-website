@@ -115,8 +115,48 @@ const productDetails = {
   description:
     "Labour / Nape Type Safety Helmet designed for reliable everyday industrial protection.",
 },
-"safety-shoes": {
-  name: "Safety Shoes",
+
+"elite-plus-safety-shoes": {
+   name: "Elite Plus Safety Shoes",
+
+  images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
+
+  image: shoes1,
+
+  category: "Safety Shoes",
+
+  features: [
+    "Heavy-Duty Impact Protection",
+    "Superior Slip Resistance",
+    "Resilient Synthetic Upper",
+    "Ergonomic Cushioning",
+    "All-Weather Performance"
+ 
+  ],
+
+  applications: [
+    "Construction and Civil Engineering",
+    "Manufacturing & Assembly Plants",
+    "Warehousing and Logistics",
+    "Automotive Workshops",
+    "General Maintenance & Field Work"
+  ],
+
+  specification: {
+    Model:"Elite Plus",
+    Upper: "Premium High-Density Synthetic Fabric",
+    Sole: "Direct-Injected Polyvinyl Chloride (PVC)",
+    Sizes: "5-11",
+    Type: "High Ankle",
+    ClosureType:"Secure Lace-up system with reinforced eyelets",
+    SafetyStandard: "IS15298 part-3:2024"
+  },
+
+  description:
+    "Industrial safety shoes designed for workplace protection.",
+},
+"plus-safety-shoes": {
+   name: "Plus Safety Shoes",
 
   images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
 
@@ -132,26 +172,34 @@ const productDetails = {
   ],
 
   applications: [
-    "Construction",
-    "Factories",
-    "Warehouses",
+    "Construction and Civil Engineering",
+    "Manufacturing & Assembly Plants",
+    "Warehousing and Logistics",
+    "Automotive Workshops",
+    "General Maintenance & Field Work"
   ],
 
   specification: {
-    Upper: "Leather",
-    Sole: "PU",
-    Sizes: "6-10",
+    Model:" Plus",
+    Upper: "Premium High-Density Synthetic Fabric",
+    Sole: "Direct-Injected Polyvinyl Chloride (PVC)",
+    ToeProtection: "Steel Toe Cap / Composite Toe Cap ",
+    ClosureType:"Secure Lace-up system with reinforced eyelets",
+    Insole:"Anti-static, cushioned EVA foam ",
+    SafetyStandard: "IS15298 part-3:2024",
+    Sizes: "5-11",
+    Type: "Debry Model"
   },
 
   description:
     "Industrial safety shoes designed for workplace protection.",
 },
-"pvc-gumboots": {
-  name: "PVC Gumboots",             
+"classic-safety-shoes": {
+   name: "Classic Safety Shoes",
 
-  images: [gumboot1, gumboot2],
+  images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
 
-  image: gumboot1,
+  image: shoes1,
 
   category: "Safety Shoes",
 
@@ -163,12 +211,57 @@ const productDetails = {
   ],
 
   applications: [
-    "Construction",
-    "Factories",
-    "Warehouses",
+    "Construction and Civil Engineering",
+    "Manufacturing & Assembly Plants",
+    "Warehousing and Logistics",
+    "Automotive Workshops",
+    "General Maintenance & Field Work"
   ],
 
   specification: {
+    Model:"Classic",
+    Upper: "Synthetic Fabric",
+    Sole: "Polyvinyl Chloride (PVC)",
+    Insole:"EVA foam cushioning for comfort",
+    ToeProtection:"Plastic Toe Cap / Composite Toe Cap",
+    ClosureType:"Secure Lace-up system with reinforced eyelets",
+    SafetyStandard: "IS15298 part-3:2024",
+    Sizes: "5-11",
+    Type: "Low Ankle"
+  },
+
+  description:
+    "Industrial safety shoes designed for workplace protection.",
+},
+
+
+"pvc-gumboots-double-colour": {
+  name: "PVC Gumboots - Double Colour",
+
+  images: [gumboot1, gumboot2],
+
+  image: gumboot1,
+
+  category: "Safety Shoes",
+
+  features: [
+    "100% Seamless Waterproofing",
+    "Superior Slip Resistance",
+    "Chemical & Oil Resistant",
+    "Ergonomic Fatigue Reduction",
+  ],
+
+  applications: [
+    "Agriculture & Farming",
+    "Construction & Civil Engineering",
+    "Food Processing & Janitorial",
+    "Mining & Aquaculture"
+  ],
+
+  specification: {
+    Material:"PVC (Polyvinyl Chloride)",
+    Height:"Full-length knee boot (approx. 13 inches )",
+    SafetyFeatures:"Available in Soft Toe or Steel Toe Cap",  
     Upper: "Leather",
     Sole: "PU",
     Sizes: "6-10",
@@ -176,7 +269,7 @@ const productDetails = {
 
   description:
     "Industrial safety shoes designed for workplace protection.",
-},
+}
 };
 
 export default productDetails;
