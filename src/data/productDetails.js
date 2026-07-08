@@ -10,6 +10,31 @@ import shoes5 from "../assets/shoes/shoes5.png";
 import shoes6 from "../assets/shoes/shoes6.png";
 import gumboot1 from "../assets/gumboots/gumboot1.jpg";
 import gumboot2 from "../assets/gumboots/gumboot2.jpg";
+import plus1 from "../assets/shoes/plus1.png";
+import plus2 from "../assets/shoes/plus2.png";
+import plus3 from "../assets/shoes/plus3.png";
+import plus4 from "../assets/shoes/plus4.png";  
+import plus5 from "../assets/shoes/plus5.png";
+import classic1 from "../assets/shoes/classic1.png";
+import classic2 from "../assets/shoes/classic2.png";
+import classic3 from "../assets/shoes/classic3.png";
+import classic4 from "../assets/shoes/classic4.png";
+import classic5 from "../assets/shoes/classic5.png";
+import classic6 from "../assets/shoes/classic6.png";
+import eliteplus1 from "../assets/shoes/eliteplus1.png";
+import eliteplus2 from "../assets/shoes/eliteplus2.png";
+import eliteplus3 from "../assets/shoes/eliteplus3.png";
+import eliteplus4 from "../assets/shoes/eliteplus4.png";
+import eliteplus5 from "../assets/shoes/eliteplus5.png";
+import eliteplus6 from "../assets/shoes/eliteplus6.png";
+import dbcgb1 from "../assets/gumboots/dbcgb1.png";
+import dbcgb2 from "../assets/gumboots/dbcgb2.png";
+import dbcgb3 from "../assets/gumboots/dbcgb3.png";
+import dbcgb4 from "../assets/gumboots/dbcgb4.png";
+import pvcg1 from "../assets/gumboots/pvcg1.png";
+import pvcg2 from "../assets/gumboots/pvcg2.png";
+import pvcg3 from "../assets/gumboots/pvcg3.png";
+import pvcg4 from "../assets/gumboots/pvcg4.png";
 
 
 const productDetails = {
@@ -119,9 +144,9 @@ const productDetails = {
 "elite-plus-safety-shoes": {
    name: "Elite Plus Safety Shoes",
 
-  images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
+  images: [eliteplus1, eliteplus2, eliteplus3, eliteplus4, eliteplus5, eliteplus6,],
 
-  image: shoes1,
+  image: eliteplus1,
 
   category: "Safety Shoes",
 
@@ -158,9 +183,9 @@ const productDetails = {
 "plus-safety-shoes": {
    name: "Plus Safety Shoes",
 
-  images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
+  images: [plus1, plus2, plus3, plus4, plus5, ],
 
-  image: shoes1,
+  image: plus1,
 
   category: "Safety Shoes",
 
@@ -197,9 +222,9 @@ const productDetails = {
 "classic-safety-shoes": {
    name: "Classic Safety Shoes",
 
-  images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
+  images: [classic1, classic2 , classic3 ,classic4 ,classic5 ,classic6 ],
 
-  image: shoes1,
+  image: classic1,
 
   category: "Safety Shoes",
 
@@ -238,9 +263,9 @@ const productDetails = {
 "pvc-gumboots-double-colour": {
   name: "PVC Gumboots - Double Colour",
 
-  images: [gumboot1],
+  images: [ dbcgb1, dbcgb2, dbcgb3, dbcgb4,],
 
-  image: gumboot1,
+  image: dbcgb1,
 
   category: "Safety Shoes",
 
@@ -275,9 +300,9 @@ const productDetails = {
 "pvc-gumboots": {
   name: "PVC Gumboots ",
 
-  images: [gumboot2],
+  images: [pvcg1, pvcg2, pvcg3, pvcg4,],
 
-  image: gumboot2,
+  image: pvcg1,
 
   category: "Safety Shoes",
 

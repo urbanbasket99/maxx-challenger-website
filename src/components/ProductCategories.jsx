@@ -64,9 +64,7 @@ function ProductCategories() {
               {/* Content */}
               <div className="p-8">
 
-                <span className="inline-block bg-yellow-100 text-yellow-700 text-sm font-semibold px-4 py-2 rounded-full mb-4">
-                  Premium Safety
-                </span>
+             
 
                 <h3 className="text-2xl font-bold text-[#0B1F3A]">
                   {item.title}

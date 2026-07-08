@@ -9,7 +9,11 @@ import helmet2 from "../assets/helmets/helmet2.png";
 import helmet3 from "../assets//helmets/helmet3.png";
 import gumboot1 from "../assets/gumboots/gumboot1.jpg";
 import gumboot2 from "../assets/gumboots/gumboot2.jpg";
-
+import plus1 from "../assets/shoes/plus1.png";
+import classic1 from "../assets/shoes/classic1.png";
+import eliteplus1 from "../assets/shoes/eliteplus1.png";
+import dbcgb1 from "../assets/gumboots/dbcgb1.png";
+import pvcg1 from "../assets/gumboots/pvcg1.png";
 
 const productCategories = {
  "head-protection": {
@@ -47,17 +51,17 @@ slug: "foot-protection",
   {
     name: "Elite Plus Safety Shoes",
     slug: "elite-plus-safety-shoes",
-    image: shoes,
+    image: eliteplus1,
   },
   {
     name: "Plus Safety Shoes",
     slug: "plus-safety-shoes",
-    image: shoes,
+    image: plus1,
   },
   {
     name: "Classic Safety Shoes",
     slug: "classic-safety-shoes",
-    image: shoes,
+    image: classic1,
   },
 ]
       
@@ -65,6 +69,7 @@ slug: "foot-protection",
   },
 
    "pvc-gumboots": {
+    title: "Foot Protection",
  
 slug: "pvc-gumboots",
     description:
@@ -73,12 +78,12 @@ slug: "pvc-gumboots",
       {
         slug: "pvc-gumboots-double-colour",
         name: "PVC Gumboots - Double Colour",
-        image: gumboot,
+        image: dbcgb1,
       },
    {
         slug: "pvc-gumboots",
         name: "PVC Gumboots",
-        image: gumboot2,
+        image: pvcg1,
       },
       ],
       
