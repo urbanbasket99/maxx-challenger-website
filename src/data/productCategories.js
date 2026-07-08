@@ -73,7 +73,7 @@ slug: "foot-protection",
  
 slug: "pvc-gumboots",
     description:
-      "Premium industrial safety shoes for maximum worker protection.",
+      "Premium industrial gum boots for maximum worker protection.",
     products: [
       {
         slug: "pvc-gumboots-double-colour",
