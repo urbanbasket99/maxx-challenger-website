@@ -12,26 +12,18 @@ const stats = [
     number: "10+",
     title: "Years Experience",
   },
-  {
-    icon: <Package size={40} />,
-    number: "500+",
-    title: "Safety Products",
-  },
+
   {
     icon: <Users size={40} />,
     number: "1000+",
     title: "Happy Customers",
   },
-  {
-    icon: <Headphones size={40} />,
-    number: "24/7",
-    title: "Customer Support",
-  },
+
 ];
 
 function StatsSection() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-15 bg-white">
 
       <div className="max-w-7xl mx-auto px-6">
 
