@@ -18,14 +18,14 @@ const products = [
   {
     title: "Safety Shoes",
     image: shoes,
-    slug: "safety-shoes",
+    slug: "foot-protection",
     desc: "Durable industrial safety shoes for worker protection.",
   },
  
   {
     title: "PVC Gumboots",
     image: gumboot,
-    slug: "gumboots",
+    slug: "pvc-gumboots",
     desc: "Heavy-duty waterproof gumboots.",
   },
 
@@ -102,7 +102,7 @@ function Products() {
                   <div className="flex gap-3 mt-6 flex-wrap">
 
  <Link
-  to={`/product/${item.slug}`}
+  to={`/products/${item.slug}`}
   className="bg-yellow-400 px-5 py-3 rounded-full font-semibold"
 >
  View Product
