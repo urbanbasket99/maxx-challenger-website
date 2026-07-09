@@ -143,7 +143,7 @@ function Footer() {
             <div className="flex gap-4">
               <MapPin className="text-yellow-400" />
               <p>
-                Plot No 1021, Rami Reddy Nagar,
+                Plot No 1021 & 1022, Rami Reddy Nagar,
                 Jeedimetla, Hyderabad,
                 Telangana - 500055
               </p>

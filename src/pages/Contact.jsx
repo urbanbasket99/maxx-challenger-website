@@ -133,7 +133,7 @@ const handleSubmit = (e) => {
                   </h3>
 
                   <p className="text-gray-600 mt-2 leading-7">
-                    PLOT NO 1021, Rami Reddy Nagar,
+                    PLOT NO 1021 & 1022, Rami Reddy Nagar,
                     Jeedimetla, Hyderabad,
                     Telangana - 500055
                   </p>
