@@ -9,9 +9,9 @@ import helmet2 from "../assets/helmets/helmet2.png";
 import helmet3 from "../assets//helmets/helmet3.png";
 import gumboot1 from "../assets/gumboots/gumboot1.jpg";
 import gumboot2 from "../assets/gumboots/gumboot2.jpg";
-import plus1 from "../assets/shoes/plus1.png";
-import classic1 from "../assets/shoes/classic1.png";
-import eliteplus1 from "../assets/shoes/eliteplus1.png";
+import plus5 from "../assets/shoes/plus5.png";
+import classic3 from "../assets/shoes/classic3.png";
+import eliteplus2 from "../assets/shoes/eliteplus2.png";
 import dbcgb1 from "../assets/gumboots/dbcgb1.png";
 import pvcg1 from "../assets/gumboots/pvcg1.png";
 
@@ -51,17 +51,17 @@ slug: "foot-protection",
   {
     name: "Elite Plus Safety Shoes",
     slug: "elite-plus-safety-shoes",
-    image: eliteplus1,
+    image: eliteplus2,
   },
   {
     name: "Plus Safety Shoes",
     slug: "plus-safety-shoes",
-    image: plus1,
+    image: plus5,
   },
   {
     name: "Classic Safety Shoes",
     slug: "classic-safety-shoes",
-    image: classic1,
+    image: classic3,
   },
 ]
       
