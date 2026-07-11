@@ -5,11 +5,7 @@ import { HelmetProvider } from "react-helmet-async";
 
 import App from "./App";
 import "./index.css";
-import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-44NKDXKCHH");
-
-ReactGA.send("pageview");
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
