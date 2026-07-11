@@ -165,51 +165,30 @@ function Navbar() {
             Products
           </div>
 
-          <div className="pl-4 flex flex-col gap-3">
+           <div className="pl-4 flex flex-col gap-3">
 
-            <Link
-              to="/products/safety-helmets"
-              onClick={() => setMobileMenu(false)}
-            >
-              Safety Helmets
-            </Link>
+  <Link
+    to="/products/head-protection"
+    onClick={() => setMobileMenu(false)}
+  >
+    Safety Helmets
+  </Link>
 
-            <Link
-              to="/products/safety-shoes"
-              onClick={() => setMobileMenu(false)}
-            >
-              Safety Shoes
-            </Link>
+  <Link
+    to="/products/foot-protection"
+    onClick={() => setMobileMenu(false)}
+  >
+    Safety Shoes
+  </Link>
 
-            <Link
-              to="/products/safety-gloves"
-              onClick={() => setMobileMenu(false)}
-            >
-              Safety Gloves
-            </Link>
+  <Link
+    to="/products/pvc-gumboots"
+    onClick={() => setMobileMenu(false)}
+  >
+    PVC Gumboots
+  </Link>
 
-            <Link
-              to="/products/reflective-jackets"
-              onClick={() => setMobileMenu(false)}
-            >
-              Reflective Jackets
-            </Link>
-
-            <Link
-              to="/products/gumboots"
-              onClick={() => setMobileMenu(false)}
-            >
-              PVC Gumboots
-            </Link>
-
-            <Link
-              to="/products/road-safety"
-              onClick={() => setMobileMenu(false)}
-            >
-              Road Safety Products
-            </Link>
-
-          </div>
+</div>
 
           <Link
             to="/contact"

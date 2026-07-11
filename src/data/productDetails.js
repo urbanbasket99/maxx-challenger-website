@@ -40,6 +40,7 @@ import pvcg4 from "../assets/gumboots/pvcg4.png";
 const productDetails = {
   "industrial-safety-helmet": {
   name: "Ventilation Ratchet Safety Helmet",
+  image: [helmet1, helmet2, helmet3, helmet4],
   image: helmet1,
   category: "Safety Helmet",
 

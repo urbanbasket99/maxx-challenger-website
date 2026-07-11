@@ -85,17 +85,24 @@ function BlogDetail() {
               <div className="flex flex-wrap gap-4 mt-8">
 
                 <Link
-                  to="/products/safety-shoes"
+                  to="/products/foot-protection"
                   className="bg-[#0B1F3A] text-white px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-[#0B1F3A] transition"
                 >
                   Safety Shoes
                 </Link>
 
                 <Link
-                  to="/products/safety-helmets"
+                  to="/products/head-protection"
                   className="bg-[#0B1F3A] text-white px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-[#0B1F3A] transition"
                 >
                   Safety Helmets
+                </Link>
+
+                <Link
+                  to="/products/pvc-gumboots"
+                  className="bg-[#0B1F3A] text-white px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-[#0B1F3A] transition"
+                >
+                  PVC Gumboots
                 </Link>
 
               </div>
