@@ -32,7 +32,7 @@ function Home() {
       <Hero />
        <ProductCategories />
       <AboutSection />
-     <Gallery />
+     
       <StatsSection />
       
       <WhyChooseUs />
