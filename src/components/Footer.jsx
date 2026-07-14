@@ -86,6 +86,9 @@ function Footer() {
             <Link to="/contact" className="hover:text-yellow-400 transition">
               Contact
             </Link>
+              <Link to="/gallery" className="hover:text-yellow-500">
+              Gallery
+            </Link>
             <Link
   to="/blog"
   className="hover:text-yellow-400 transition"

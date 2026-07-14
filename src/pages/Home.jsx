@@ -7,6 +7,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import CTA from "../components/CTA";
 import StatsSection from "../components/StatsSection";
 import isiLogo from "../assets/certifications/isi.png";
+import Gallery from "../components/Gallery";
 
 function Home() {
   return (
@@ -31,7 +32,7 @@ function Home() {
       <Hero />
        <ProductCategories />
       <AboutSection />
-     
+     <Gallery />
       <StatsSection />
       
       <WhyChooseUs />

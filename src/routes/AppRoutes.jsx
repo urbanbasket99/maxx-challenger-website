@@ -18,6 +18,7 @@ import SafetyShoesForFactoryWorkers from "../pages/SafetyShoesForFactoryWorkers"
 import SafetyShoesFactoryPage from "../pages/SafetyShoesFactoryPage";
 import SafetyHelmetsForFactoryWorkers from "../pages/SafetyHelmetsForFactoryWorkers";
 import PVCGumboots from "../pages/Pvcgumboots";
+import GalleryPage from "../pages/GalleryPage";
 
 function AppRoutes() {
   return (
@@ -27,6 +28,11 @@ function AppRoutes() {
       <Route path="/about" element={<About />} />
 
       <Route path="/products" element={<Products />} />
+
+      <Route
+  path="/gallery"
+  element={<GalleryPage />}
+/>
 
       <Route path="/contact" element={<Contact />} />
 

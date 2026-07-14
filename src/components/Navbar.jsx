@@ -85,6 +85,10 @@ function Navbar() {
               Blog
             </Link>
 
+            <Link to="/gallery" className="hover:text-yellow-500">
+              Gallery
+            </Link>
+
             <Link to="/contact" className="hover:text-yellow-500">
               Contact
             </Link>
@@ -189,6 +193,9 @@ function Navbar() {
   </Link>
 
 </div>
+  <Link to="/gallery" className="hover:text-yellow-500">
+              Gallery
+            </Link>
 
           <Link
             to="/contact"
