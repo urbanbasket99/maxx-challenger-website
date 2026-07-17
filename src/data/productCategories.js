@@ -14,7 +14,7 @@ import classic3 from "../assets/shoes/classic3.png";
 import eliteplus2 from "../assets/shoes/eliteplus2.png";
 import dbcgb1 from "../assets/gumboots/dbcgb1.png";
 import pvcg1 from "../assets/gumboots/pvcg1.png";
-import DownloadCatalog from "../components/DownloadCatalog";
+/*import DownloadCatalog from "../components/DownloadCatalog";*/
 
 
 const productCategories = {
@@ -54,19 +54,19 @@ slug: "foot-protection",
     name: "Elite Plus Safety Shoes",
     slug: "elite-plus-safety-shoes",
     image: eliteplus2,
-    catalog: "/catalogs/elite-plus.pdf",
+    /*catalog: "/catalogs/elite-plus.pdf",*/
   },
   {
     name: "Plus Safety Shoes",
     slug: "plus-safety-shoes",
     image: plus5,
-    catalog: "/catalogs/plus.pdf",
+    /*catalog: "/catalogs/plus.pdf",*/
   },
   {
     name: "Classic Safety Shoes",
     slug: "classic-safety-shoes",
     image: classic3,
-    catalog: "/catalogs/classic.pdf",
+    /*catalog: "/catalogs/classic.pdf",*/
   },
 ]
       
