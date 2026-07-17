@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import productCategories from "../data/productCategories";
 import CTA from "../components/CTA";
+import DownloadCatalog from "../components/DownloadCatalog";
 
 
 function ProductCategory() {
@@ -198,6 +199,10 @@ function ProductCategory() {
 >
   View Product
 </Link>
+<DownloadCatalog
+      file={item.catalog}
+      title="Catalogue"
+    />
 </div>
 
   </div>
