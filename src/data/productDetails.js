@@ -101,7 +101,7 @@ const productDetails = {
     Certification: "IS:2925:1984",
     Material: "HDPE",
     Weight: "360 GMS",
-    Suspension: "LDPE 6-Point Ratchet Suspension",
+    Suspension: "LDPE 4-Point Ratchet Suspension",
     RatchetAdjustment: "Yes",
     Colors: "White, Yellow, Blue, Green, Grey, Orange",
   },
