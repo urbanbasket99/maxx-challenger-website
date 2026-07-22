@@ -48,7 +48,7 @@ const productDetails = {
     "Impact Armor: High-density impact-resistant shell",
     "Multi-port ventilation channels",
     "Secure ratchet adjustment system",
-    "LDPE 6-point suspension",
+    "LDPE 4-point suspension",
     "Universal 30mm accessory slots",
     "All-day comfort design",
   ],
