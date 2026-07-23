@@ -83,7 +83,7 @@ const productDetails = {
 
   features: [
     "High-density HDPE shell",
-    "6-point LDPE ratchet suspension",
+    "4-point LDPE ratchet suspension",
     "Lightweight design",
     "Comfortable fit",
     "Industrial-grade protection",
@@ -134,7 +134,7 @@ const productDetails = {
     Certification: "IS:2925:1984",
     Material: "HDPE & PPCP",
     Weight: "240 GMS",
-    Suspension: "LDPE Suspension",
+    Suspension: "LDPE 4-Point Ratchet Suspension",
     Colors: "White, Yellow, Blue, Green, Grey, Orange",
   },
 
@@ -172,7 +172,7 @@ const productDetails = {
     Model:"Elite Plus",
     Upper: "Premium High-Density Synthetic Fabric",
     Sole: "Direct-Injected Polyvinyl Chloride (PVC)",
-    Sizes: "5-11",
+    Sizes: "6-11",
     Type: "High Ankle",
     ClosureType:"Secure Lace-up system with reinforced eyelets",
     SafetyStandard: "IS15298 part-3:2024"
@@ -213,7 +213,7 @@ const productDetails = {
     ClosureType:"Secure Lace-up system with reinforced eyelets",
     Insole:"Anti-static, cushioned EVA foam ",
     SafetyStandard: "IS15298 part-3:2024",
-    Sizes: "5-11",
+    Sizes: "6-11",
     Type: "Debry Model"
   },
 
@@ -252,7 +252,7 @@ const productDetails = {
     ToeProtection:"Plastic Toe Cap / Composite Toe Cap",
     ClosureType:"Secure Lace-up system with reinforced eyelets",
     SafetyStandard: "IS15298 part-3:2024",
-    Sizes: "5-11",
+    Sizes: "6-11",
     Type: "Low Ankle"
   },
 
