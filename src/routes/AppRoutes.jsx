@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import IndustrialSafetyHyderabad from "../pages/IndustrialSafetyHyderabad";
 import SeoLandingPage from "../pages/SeoLandingPage";
-
+import OurFounder from "../pages/OurFounder";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Products from "../pages/Products";
@@ -32,6 +32,10 @@ function AppRoutes() {
       <Route
   path="/gallery"
   element={<GalleryPage />}
+/>
+<Route
+  path="/our-founder"
+  element={<OurFounder />}
 />
 
       <Route path="/contact" element={<Contact />} />

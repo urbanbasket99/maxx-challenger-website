@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import StoreImage from "../assets/store.jpg";
 import CTA from "../components/CTA";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function About() {
  
@@ -110,6 +111,80 @@ function About() {
         </div>
 
       </section>
+     <section className="py-20 bg-[#F8FAFC]">
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="rounded-[32px] overflow-hidden">
+      <div className="grid lg:grid-cols-2">
+
+    {/* Left Side */}
+    <div className="bg-[#0B1F3A] text-white p-8 flex flex-col justify-center">
+
+      <p className="uppercase tracking-widest text-yellow-400 font-semibold">
+        Founder & Managing Director
+      </p>
+
+      <h2 className="text-4xl font-bold mt-4 leading-tight">
+        A Message From
+        <br />
+        Our Founder
+      </h2>
+
+      <p className="mt-8 text-gray-300 leading-8">
+        "Safety is not just a product.
+        It is a responsibility."
+
+        <br /><br />
+
+        With over 15 years in the PPE industry and a
+        40-year family legacy in industrial equipment,
+        Vikaas Agarrwal founded Maxx Challenger to
+        deliver reliable safety solutions across India.
+      </p>
+
+      <Link
+        to="/our-founder"
+        className="mt-10 inline-flex w-fit bg-yellow-400 text-[#0B1F3A] px-8 py-4 rounded-full font-semibold hover:bg-white transition"
+      >
+        Read Full Story →
+      </Link>
+
+    </div>
+
+    {/* Right Side */}
+
+    <div className="p-12 flex items-center">
+
+      <div className="grid grid-cols-2 gap-6 w-full">
+
+        <div className="bg-white rounded-2xl shadow p-8">
+          <h3 className="text-4xl font-bold text-[#0B1F3A]">15+</h3>
+          <p className="mt-2 text-gray-600">Years in PPE Industry</p>
+        </div>
+
+        <div className="bg-white rounded-2xl shadow p-8">
+          <h3 className="text-4xl font-bold text-[#0B1F3A]">40+</h3>
+          <p className="mt-2 text-gray-600">Years Family Legacy</p>
+        </div>
+
+        <div className="bg-white rounded-2xl shadow p-8">
+          <h3 className="text-4xl font-bold text-[#0B1F3A]">100+</h3>
+          <p className="mt-2 text-gray-600">Safety Products</p>
+        </div>
+
+        <div className="bg-white rounded-2xl shadow p-8">
+          <h3 className="text-4xl font-bold text-[#0B1F3A]">PAN India</h3>
+          <p className="mt-2 text-gray-600">Industrial Supply</p>
+        </div>
+
+      </div>
+
+    </div>
+</div>
+</div>
+  </div>
+</section>
+
 
       {/* Mission & Vision */}
       <section className="py-24 bg-white">
