@@ -49,7 +49,7 @@ function OurFounder() {
 
       <div>
 
-         <div className="w-full max-w-[400px] rounded-[30px] shadow-2xl object-cover">
+        <div className="w-full max-w-[400px] rounded-[30px] shadow-2xl object-cover">
 
   <img
     src={founder}
