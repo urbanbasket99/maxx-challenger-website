@@ -49,12 +49,12 @@ function OurFounder() {
 
       <div>
 
-        <div className="sticky top-28">
+         <div className="w-full max-w-[400px] rounded-[30px] shadow-2xl object-cover">
 
   <img
     src={founder}
     alt="Vikaas Agarrwal"
-    className="w-full max-w-[650px] rounded-[30px] shadow-2xl object-cover"
+    className="w-full max-w-[400px] rounded-[30px] shadow-2xl object-cover"
   />
 
 </div>
