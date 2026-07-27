@@ -19,7 +19,7 @@ import pvcg1 from "../assets/gumboots/pvcg1.png";
 
 const productCategories = {
  "head-protection": {
-title: "Head Protection",
+title: "Safety Helmet Manufacturers",
 slug: "head-protection",
   description:
     "Premium industrial safety helmets for construction, factories and workplaces.",
@@ -45,7 +45,7 @@ slug: "head-protection",
 
 
  "foot-protection": {
-   title: "Foot Protection",
+   title: "Safety Shoes Manufacturers",
 slug: "foot-protection",
     description:
       "Premium industrial safety shoes for maximum worker protection.",
@@ -74,7 +74,7 @@ slug: "foot-protection",
   },
 
    "pvc-gumboots": {
-    title: "Foot Protection",
+    title: "Gumboot Manufacturers",
  
 slug: "pvc-gumboots",
     description:
