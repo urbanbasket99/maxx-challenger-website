@@ -19,6 +19,7 @@ import SafetyShoesFactoryPage from "../pages/SafetyShoesFactoryPage";
 import SafetyHelmetsForFactoryWorkers from "../pages/SafetyHelmetsForFactoryWorkers";
 import PVCGumboots from "../pages/Pvcgumboots";
 import GalleryPage from "../pages/GalleryPage";
+import Catalogue from "../pages/Catalogue";
 
 function AppRoutes() {
   return (
@@ -36,6 +37,10 @@ function AppRoutes() {
 <Route
   path="/our-founder"
   element={<OurFounder />}
+/>
+<Route
+  path="/catalogue"
+  element={<Catalogue />}
 />
 
       <Route path="/contact" element={<Contact />} />
