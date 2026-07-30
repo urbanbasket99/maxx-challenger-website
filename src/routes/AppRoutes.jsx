@@ -56,6 +56,10 @@ function AppRoutes() {
   element={<ProductDetail />}
 />
 <Route
+    path="/products/:category/:slug"
+    element={<ProductDetail />}
+/>
+<Route
   path="/industrial-safety-products-hyderabad"
   element={<IndustrialSafetyHyderabad />}
 />

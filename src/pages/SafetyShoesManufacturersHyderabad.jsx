@@ -1,5 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import SEOHero from "../components/seo/SEOHero";
+import StatsSection from "../components/seo/StatsSection";
 
 function SafetyShoesManufacturersHyderabad() {
   return (
@@ -20,27 +22,12 @@ function SafetyShoesManufacturersHyderabad() {
         />
       </Helmet>
 
-      <section className="bg-[#0B1F3A] text-white py-24">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h1 className="text-5xl font-bold mb-6">
-            Safety Shoes Manufacturers Hyderabad
-          </h1>
-
-          <p className="text-xl max-w-4xl mx-auto">
-            Maxx Challenger Safety Products is one of the leading Safety Shoes
-            Manufacturers in Hyderabad supplying premium industrial safety
-            footwear for construction, manufacturing, engineering, logistics,
-            warehousing and industrial workplaces.
-          </p>
-
-          <Link
-            to="/contact"
-            className="inline-block mt-8 bg-yellow-400 text-black px-8 py-4 rounded-lg font-bold"
-          >
-            Request a Quote
-          </Link>
-        </div>
-      </section>
+      <SEOHero
+  breadcrumb="Safety Shoes Manufacturers Hyderabad"
+  title="Safety Shoes Manufacturers in Hyderabad"
+  description="Maxx Challenger Safety Products is a trusted manufacturer and supplier of premium industrial safety shoes in Hyderabad. Our safety footwear is designed for construction, manufacturing, engineering, logistics, warehouses, pharmaceuticals and heavy industries, delivering reliable protection, comfort and long-lasting performance."
+/>
+<StatsSection />
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">

@@ -35,6 +35,12 @@ import pvcg1 from "../assets/gumboots/pvcg1.png";
 import pvcg2 from "../assets/gumboots/pvcg2.png";
 import pvcg3 from "../assets/gumboots/pvcg3.png";
 import pvcg4 from "../assets/gumboots/pvcg4.png";
+import whelmet1 from "../assets/helmets/whelmet1.png";
+import whelmet2 from "../assets/helmets/whelmet2.png";
+import whelmet3 from "../assets/helmets/whelmet3.png";
+import whelmet4 from "../assets/helmets/whelmet4.png";
+import whelmet5 from "../assets/helmets/whelmet5.png";
+import whelmet6 from "../assets/helmets/whelmet6.png";
 
 
 const productDetails = {
@@ -78,7 +84,8 @@ const productDetails = {
 },
  "construction-safety-helmet": {
   name: "Executive Ratchet Safety Helmet",
-  image: helmet2,
+  images: [whelmet1, whelmet2, whelmet3, whelmet4, whelmet5, whelmet6],
+  image: whelmet4,
   category: "Safety Helmet",
 
   features: [
