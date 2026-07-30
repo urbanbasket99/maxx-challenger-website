@@ -15,6 +15,7 @@ import plus2 from "../assets/shoes/plus2.png";
 import plus3 from "../assets/shoes/plus3.png";
 import plus4 from "../assets/shoes/plus4.png";  
 import plus5 from "../assets/shoes/plus5.png";
+import plus6 from "../assets/shoes/plus6.png";
 import classic1 from "../assets/shoes/classic1.png";
 import classic2 from "../assets/shoes/classic2.png";
 import classic3 from "../assets/shoes/classic3.png";
