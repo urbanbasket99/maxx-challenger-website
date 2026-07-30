@@ -81,14 +81,12 @@ function Navbar() {
               )}
             </div>
 
-            <Link to="/blog" className="hover:text-yellow-500">
-              Blog
-            </Link>
-
-            <Link to="/gallery" className="hover:text-yellow-500">
+         <Link to="/gallery" className="hover:text-yellow-500">
               Gallery
             </Link>
-
+ <Link to="/catalogue" className="hover:text-yellow-500">
+              Catalog
+            </Link>
             <Link to="/contact" className="hover:text-yellow-500">
               Contact
             </Link>
@@ -193,8 +191,8 @@ function Navbar() {
   </Link>
 
 </div>
-  <Link to="/gallery" className="hover:text-yellow-500">
-              Gallery
+  <Link to="/catalogue" className="hover:text-yellow-500">
+              Catalog
             </Link>
 
           <Link

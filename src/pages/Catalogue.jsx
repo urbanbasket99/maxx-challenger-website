@@ -5,10 +5,10 @@ export default function Catalogue() {
   return (
     <>
       <Helmet>
-        <title>Product Catalogue | Maxx Challenger Safety Products</title>
+        <title>Product Catalog | Maxx Challenger Safety Products</title>
         <meta
           name="description"
-          content="Download the complete Maxx Challenger Safety Products Catalogue."
+          content="Download the complete Maxx Challenger Safety Products Catalog."
         />
       </Helmet>
 
@@ -18,7 +18,7 @@ export default function Catalogue() {
         <div className="max-w-6xl mx-auto px-6 text-center">
 
           <h1 className="text-5xl md:text-6xl font-bold">
-            Product Catalogue
+            Product Catalog
           </h1>
 
               </div>
@@ -34,7 +34,7 @@ export default function Catalogue() {
 
          
             <h2 className="text-4xl font-bold text-[#0B1F3A] mt-10">
-              Maxx Challenger Product Catalogue
+              Maxx Challenger Product Catalog
             </h2>
 
             <p className="mt-5 text-lg text-gray-600 leading-8">
@@ -52,7 +52,7 @@ export default function Catalogue() {
               className="inline-flex items-center gap-3 mt-10 bg-[#0B1F3A] hover:bg-yellow-500 hover:text-[#0B1F3A] text-white px-10 py-5 rounded-full font-semibold transition-all duration-300"
             >
               <Download size={22} />
-              Download Catalogue
+              Download Catalog
             </a>
 
           </div>
