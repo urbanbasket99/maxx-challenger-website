@@ -182,6 +182,16 @@ function Footer() {
                 
               </a>
             </div>
+             <div className="flex gap-4">
+              <Phone className="text-yellow-400" />
+              <a
+                href="tel:+919885097894"
+                className="hover:text-yellow-400"
+              >
+                +91 9885097894
+                
+              </a>
+            </div>
 
             <div className="flex gap-4">
               <Mail className="text-yellow-400" />
