@@ -166,6 +166,12 @@ const handleSubmit = (e) => {
                   >
                     +91 9121190033
                   </a>
+                   <a
+                    href="tel:+919885097894"
+                    className="text-gray-600 mt-2 block hover:text-yellow-500"
+                  >
+                    +91 9885097894
+                  </a>
                 </div>
               </div>
 
