@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import seoPages from "../data/seoData";
 import { Link } from "react-router-dom";
 function SeoLandingPage() {
