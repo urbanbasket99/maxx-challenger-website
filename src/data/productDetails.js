@@ -49,7 +49,8 @@ const productDetails = {
   name: "Ventilation Ratchet Safety Helmet",
   image: [helmet1, helmet2, helmet3, helmet4],
   image: helmet1,
-  category: "Safety Helmet",
+ category: "Safety Helmet",
+seoCategory: "Safety Helmets in Hyderabad",
 
   features: [
     "Impact Armor: High-density impact-resistant shell",
@@ -88,7 +89,7 @@ const productDetails = {
   images: [whelmet1, whelmet2, whelmet3, whelmet4, whelmet5, whelmet6],
   image: whelmet4,
   category: "Safety Helmet",
-
+seoCategory: "Safety Helmets in Hyderabad",
   features: [
     "High-density HDPE shell",
     "4-point LDPE ratchet suspension",
@@ -121,6 +122,7 @@ const productDetails = {
   name: "Labour / Nape Type Safety Helmet",
   image: helmet3,
   category: "Safety Helmet",
+seoCategory: "Safety Helmets in Hyderabad",
 
   features: [
     "Economical industrial protection",
@@ -158,6 +160,7 @@ const productDetails = {
   image: eliteplus1,
 
   category: "Safety Shoes",
+seoCategory: "Safety Shoes in Hyderabad",
 
   features: [
     "Heavy-Duty Impact Protection",
@@ -197,6 +200,7 @@ const productDetails = {
   image: plus1,
 
   category: "Safety Shoes",
+  seoCategory: "Safety Shoes in Hyderabad",
 
   features: [
     "Steel Toe Protection",
@@ -236,7 +240,7 @@ const productDetails = {
   image: classic1,
 
   category: "Safety Shoes",
-
+  seoCategory: "Safety Shoes in Hyderabad",
   features: [
     "Steel Toe Protection",
     "Anti Slip Sole",
@@ -276,7 +280,8 @@ const productDetails = {
 
   image: dbcgb1,
 
-  category: "Safety Shoes",
+category: "Gumboots",
+seoCategory: "Gumboots in Hyderabad",
 
   features: [
     "100% Seamless Waterproofing",
@@ -307,13 +312,14 @@ const productDetails = {
 } ,
 
 "pvc-gumboots": {
-  name: "PVC Gumboots ",
+  name: "Gumboots ",
 
   images: [pvcg1, pvcg2, pvcg3, pvcg4,],
 
   image: pvcg1,
 
-  category: "Safety Shoes",
+  category: " Gumboots",
+seoCategory: "Gumboots in Hyderabad",
 
   features: [
     "100% Seamless Waterproofing",

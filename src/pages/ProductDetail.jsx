@@ -11,6 +11,17 @@ function ProductDetail() {
   const { slug } = useParams();
 
   const product = productDetails[slug];
+  const categoryTitle = {
+  "Safety Helmets": "Safety Helmets in Hyderabad",
+  "Safety Shoes": "Safety Shoes in Hyderabad",
+  "PVC Gumboots": "PVC Gumboots in Hyderabad",
+  "Reflective Jackets": "Reflective Jackets in Hyderabad",
+  "Safety Gloves": "Safety Gloves in Hyderabad",
+  "Road Safety": "Road Safety Products in Hyderabad",
+};
+
+const pageTitle =
+  categoryTitle[product?.category] || "Industrial Safety Products in Hyderabad";
   const relatedProducts = Object.entries(productDetails)
   .filter(([key]) => key !== slug)
   .slice(0, 4);
@@ -37,10 +48,9 @@ const [selectedImage, setSelectedImage] = useState(
   <>
     
     <Helmet>
-      <title>
-        {`${product.name} in Hyderabad | Maxx Challenger Safety Products`}
-      </title>
-
+    <title>
+  {`${product.seoCategory} | ${product.name} | Maxx Challenger Safety Products`}
+</title>
       <meta
         name="description"
         content={`${product.name} supplier in Hyderabad. Premium industrial safety products for workplace protection.`}
