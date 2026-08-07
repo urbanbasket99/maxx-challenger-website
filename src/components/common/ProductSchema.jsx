@@ -33,13 +33,6 @@ export default function ProductSchema({ product, slug }) {
 
     url: `https://www.maxxchallengersafety.com/product/${slug}`,
 
-    offers: {
-      "@type": "Offer",
-      url: `https://www.maxxchallengersafety.com/product/${slug}`,
-      priceCurrency: "INR",
-      availability: "https://schema.org/InStock",
-      itemCondition: "https://schema.org/NewCondition",
-    },
   };
 
   return (
