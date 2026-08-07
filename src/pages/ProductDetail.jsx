@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet-async";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import SEO from "../components/common/SEO";
+import ProductSchema from "../components/common/ProductSchema";
 
 
 import "react-medium-image-zoom/dist/styles.css";
@@ -53,6 +54,10 @@ const [selectedImage, setSelectedImage] = useState(
   description={`${product.name} from Maxx Challenger Safety Products. Premium industrial safety equipment manufactured for construction, factories, engineering, infrastructure and industrial workplaces across India.`}
   keywords={`${product.name}, ${product.seoCategory}, Industrial Safety Products, PPE Manufacturer`}
   canonical={`https://www.maxxchallengersafety.com/product/${slug}`}
+/>
+<ProductSchema
+  product={product}
+  slug={slug}
 />
 
     <section className="py-24 bg-[#F8FAFC] min-h-screen">
