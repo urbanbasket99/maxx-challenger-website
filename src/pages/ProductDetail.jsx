@@ -93,10 +93,10 @@ const [selectedImage, setSelectedImage] = useState(
   {/* Main Image */}
   <div className="h-[550px] flex items-center justify-center overflow-hidden rounded-[20px]">
     <img
-      src={selectedImage}
-      alt={product.name}
-      className="max-h-full max-w-full object-contain rounded-[20px] transition-transform duration-300 hover:scale-125 cursor-zoom-in"
-    />
+  src={selectedImage}
+  alt={`${product.name} | ${product.seoCategory} | Maxx Challenger Safety Products`}
+  className="..."
+/>
   </div>
   
 
@@ -106,7 +106,7 @@ const [selectedImage, setSelectedImage] = useState(
       <img
         key={index}
         src={img}
-        alt={`${product.name}-${index}`}
+       alt={`${product.name} View ${index + 1} | ${product.seoCategory}`}
         onClick={() => setSelectedImage(img)}
         className={`w-20 h-20 flex-shrink-0 object-cover rounded-lg border-2 cursor-pointer transition ${
           selectedImage === img
@@ -293,8 +293,8 @@ const [selectedImage, setSelectedImage] = useState(
         className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
       >
         <img
-          src={item.image}
-          alt={item.name}
+              src={item.image}
+              alt={`${item.name} | ${item.seoCategory} | Maxx Challenger Safety Products`}
           className="w-full h-56 object-contain p-4"
         />
 

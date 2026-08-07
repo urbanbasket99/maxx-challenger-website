@@ -215,6 +215,39 @@ function Footer() {
         </div>
 
       </div>
+     <div className="border-t border-gray-700 pt-8 mt-10">
+  <div className="max-w-7xl mx-auto px-6">
+
+
+<h3 className="text-lg font-semibold text-white mb-4">
+Popular Searches
+</h3>
+
+<div className="flex flex-wrap gap-3">
+
+<Link to="/industrial-safety-products-hyderabad">
+Industrial Safety Products
+</Link>
+
+<Link to="/products/head-protection">
+Safety Helmets
+</Link>
+
+<Link to="/products/foot-protection">
+Safety Shoes
+</Link>
+
+<Link to="/pvc-gumboots">
+PVC Gumboots
+</Link>
+
+<Link to="/blog">
+Safety Blog
+</Link>
+
+</div>
+</div>
+</div>
 
       {/* Bottom Footer */}
       <div className="border-t border-gray-700 py-6">

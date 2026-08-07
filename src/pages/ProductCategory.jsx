@@ -161,7 +161,7 @@ function ProductCategory() {
 
     <img
       src={item.image}
-      alt={item.name}
+       alt={`${item.name} | ${item.seoCategory} | Maxx Challenger Safety Products`}
       className="w-60 h-[320px] object-contain mx-auto group-hover:scale-110 transition duration-700"
     />
 

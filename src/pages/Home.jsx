@@ -1,5 +1,5 @@
 import SEO from "../components/common/SEO";
-
+import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
 import ProductCategories from "../components/ProductCategories";
@@ -32,7 +32,7 @@ function Home() {
 
     <div className="text-center mb-14">
       <h2 className="text-4xl font-bold text-[#0B1F3A] mb-4">
-        Popular Safety Solutions
+       Explore Our Complete Safety Product Range
       </h2>
 
       <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -42,9 +42,61 @@ function Home() {
       </p>
     </div>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-   </div>
+  <Link
+    to="/products/foot-protection"
+    className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition"
+  >
+    <h3 className="text-xl font-bold text-[#0B1F3A]">
+      Safety Shoes
+    </h3>
+
+    <p className="text-gray-600 mt-3">
+      Premium industrial safety shoes with steel toe protection for construction, factories, engineering and manufacturing industries.
+    </p>
+  </Link>
+
+  <Link
+    to="/products/head-protection"
+    className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition"
+  >
+    <h3 className="text-xl font-bold text-[#0B1F3A]">
+      Safety Helmets
+    </h3>
+
+    <p className="text-gray-600 mt-3">
+      ISI-certified industrial safety helmets with ratchet and pinlock suspension for maximum head protection.
+    </p>
+  </Link>
+
+  <Link
+    to="/pvc-gumboots"
+    className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition"
+  >
+    <h3 className="text-xl font-bold text-[#0B1F3A]">
+      PVC Gumboots
+    </h3>
+
+    <p className="text-gray-600 mt-3">
+      Heavy-duty PVC gumboots designed for industrial, chemical and construction applications.
+    </p>
+  </Link>
+
+  {/*<Link
+    to="/products/body-protection"
+    className="bg-white p-6 rounded-xl shadow hover:shadow-xl transition"
+  >
+    <h3 className="text-xl font-bold text-[#0B1F3A]">
+      Reflective Jackets
+    </h3>
+
+    <p className="text-gray-600 mt-3">
+      High-visibility reflective jackets for road safety, construction and industrial workplaces.
+    </p>
+  </Link>*/}
+
+</div>
 
   </div>
 </section>
