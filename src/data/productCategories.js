@@ -141,7 +141,7 @@ slug: "body-protection",
 },
     ],
   },
-
+*/
   "road-safety": {
     title: "Road Safety Products",
     description:
@@ -150,11 +150,11 @@ slug: "body-protection",
      {
   name: "Road Safety Product",
   slug: "road-safety-product",
-  image: roadSafety,
+  image: "/roadsafety.jpg?v=1"
 },
     ],
   },
-  */
+  
 };
 
 export default productCategories;

@@ -14,10 +14,10 @@ const products = [
     desc: "Safety shoes and gumboots designed for maximum workplace safety and comfort.",
   },
    {
-    title: "PVC Gumboots",
-    image: "/gumboots1.jpg?v=1",
-    slug: "pvc-gumboots",
-    desc: "Heavy-duty PVC gumboots designed for industrial, chemical and construction applications.",
+    title: "Road Safety",
+    image: "/roadsafety.jpg?v=1",
+    slug: "road-safety",
+    desc: "High-visibility reflective jackets for road safety, construction and industrial workplaces.",
   },
  
 ];
