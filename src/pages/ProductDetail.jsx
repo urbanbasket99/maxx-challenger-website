@@ -3,6 +3,7 @@ import productDetails from "../data/productDetails";
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import SEO from "../components/common/SEO";
 
 
 import "react-medium-image-zoom/dist/styles.css";
@@ -47,20 +48,12 @@ const [selectedImage, setSelectedImage] = useState(
     
   <>
     
-    <Helmet>
-    <title>
-  {`${product.seoCategory} | ${product.name} | Maxx Challenger Safety Products`}
-</title>
-      <meta
-        name="description"
-        content={`${product.name} supplier in Hyderabad. Premium industrial safety products for workplace protection.`}
-      />
-
-      <meta
-        name="keywords"
-        content={`${product.name}, safety products Hyderabad, PPE products`}
-      />
-    </Helmet>
+    <SEO
+  title={`${product.seoCategory} | ${product.name} | Maxx Challenger Safety Products`}
+  description={`${product.name} from Maxx Challenger Safety Products. Premium industrial safety equipment manufactured for construction, factories, engineering, infrastructure and industrial workplaces across India.`}
+  keywords={`${product.name}, ${product.seoCategory}, Industrial Safety Products, PPE Manufacturer`}
+  canonical={`https://www.maxxchallengersafety.com/product/${slug}`}
+/>
 
     <section className="py-24 bg-[#F8FAFC] min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
