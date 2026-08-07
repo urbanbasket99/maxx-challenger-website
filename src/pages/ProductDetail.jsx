@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import SEO from "../components/common/SEO";
 import ProductSchema from "../components/common/ProductSchema";
+import BreadcrumbSchema from "../components/common/BreadcrumbSchema";
 
 
 import "react-medium-image-zoom/dist/styles.css";
@@ -58,6 +59,28 @@ const [selectedImage, setSelectedImage] = useState(
 <ProductSchema
   product={product}
   slug={slug}
+/>
+<BreadcrumbSchema
+  items={[
+    {
+      name: "Home",
+      url: "https://www.maxxchallengersafety.com",
+    },
+    {
+      name: "Products",
+      url: "https://www.maxxchallengersafety.com/products",
+    },
+    {
+      name: product.category,
+      url: `https://www.maxxchallengersafety.com/products/${product.category
+        .toLowerCase()
+        .replace(/\s+/g, "-")}`,
+    },
+    {
+      name: product.name,
+      url: `https://www.maxxchallengersafety.com/product/${slug}`,
+    },
+  ]}
 />
 
     <section className="py-24 bg-[#F8FAFC] min-h-screen">
