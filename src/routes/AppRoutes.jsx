@@ -20,6 +20,7 @@ import SafetyHelmetsForFactoryWorkers from "../pages/SafetyHelmetsForFactoryWork
 import PVCGumboots from "../pages/Pvcgumboots";
 import GalleryPage from "../pages/GalleryPage";
 import Catalogue from "../pages/Catalogue";
+import LocationPage from "../pages/LocationPage.jsx";
 
 function AppRoutes() {
   return (
@@ -54,6 +55,10 @@ function AppRoutes() {
 <Route
   path="/product/:slug"
   element={<ProductDetail />}
+/>
+<Route
+  path="/locations/:city"
+  element={<LocationPage />}
 />
 <Route
     path="/products/:category/:slug"
