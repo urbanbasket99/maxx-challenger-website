@@ -42,6 +42,11 @@ import whelmet3 from "../assets/helmets/whelmet3.png";
 import whelmet4 from "../assets/helmets/whelmet4.png";
 import whelmet5 from "../assets/helmets/whelmet5.png";
 import whelmet6 from "../assets/helmets/whelmet6.png";
+import dc15_1 from "../assets/gumboots/dc15_1.jpg";
+import dc15_2 from "../assets/gumboots/dc15_2.jpg";
+import dc15_3 from "../assets/gumboots/dc15_3.JPG";
+import dc15_4 from "../assets/gumboots/dc15_4.jpg"; 
+import dc15 from "../assets/gumboots/dc15.jpg";
 
 
 const productDetails = {
@@ -300,6 +305,43 @@ seoCategory: "Gumboots in Hyderabad",
   specification: {
     Material:"PVC (Polyvinyl Chloride)",
     Height:"Full-length knee boot (approx. 13 inches )",
+    SafetyFeatures:"Available in Soft Toe or Steel Toe Cap",  
+    Soleype:"Cleated, anti-skid, oil-resistant outsole",
+    Lining:"Quick-drying, sweat-absorbent polyester fabric lining",
+    Colour:"Black / Red(sole)",
+  
+  },
+
+  description:
+    "Industrial safety shoes designed for workplace protection.",
+} ,
+"pvc-gumboots-double-colour1": {
+  name: "PVC Gumboots - Double Colour",
+
+  images: [ dc15_3, dc15_2, dc15_1, dc15_4,],
+
+  image: dc15_3,
+
+category: "Gumboots",
+seoCategory: "Gumboots in Hyderabad",
+
+  features: [
+    "100% Seamless Waterproofing",
+    "Superior Slip Resistance",
+    "Chemical & Oil Resistant",
+    "Ergonomic Fatigue Reduction",
+  ],
+
+  applications: [
+    "Agriculture & Farming",
+    "Construction & Civil Engineering",
+    "Food Processing & Janitorial",
+    "Mining & Aquaculture"
+  ],
+
+  specification: {
+    Material:"PVC (Polyvinyl Chloride)",
+    Height:"Full-length knee boot (approx. 15 inches )",
     SafetyFeatures:"Available in Soft Toe or Steel Toe Cap",  
     Soleype:"Cleated, anti-skid, oil-resistant outsole",
     Lining:"Quick-drying, sweat-absorbent polyester fabric lining",

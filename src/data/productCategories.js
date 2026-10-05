@@ -14,6 +14,7 @@ import classic3 from "../assets/shoes/classic3.png";
 import eliteplus2 from "../assets/shoes/eliteplus2.png";
 import dbcgb1 from "../assets/gumboots/dbcgb1.png";
 import pvcg1 from "../assets/gumboots/pvcg1.png";
+import dc15_3 from "../assets/gumboots/dc15_3.JPG";
 /*import DownloadCatalog from "../components/DownloadCatalog";*/
 
 
@@ -84,6 +85,11 @@ slug: "pvc-gumboots",
         slug: "pvc-gumboots-double-colour",
         name: "PVC Gumboots - Double Colour",
         image: dbcgb1,
+      },
+      {
+        slug: "pvc-gumboots-double-colour1",
+        name: "PVC Gumboots - Double Colour",
+        image: dc15_3,
       },
    {
         slug: "pvc-gumboots",
