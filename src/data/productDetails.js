@@ -42,11 +42,12 @@ import whelmet3 from "../assets/helmets/whelmet3.png";
 import whelmet4 from "../assets/helmets/whelmet4.png";
 import whelmet5 from "../assets/helmets/whelmet5.png";
 import whelmet6 from "../assets/helmets/whelmet6.png";
-import dc15_1 from "../assets/gumboots/dc15_1.jpg";
-import dc15_2 from "../assets/gumboots/dc15_2.jpg";
+import dc15 from "../assets/gumboots/dc15.JPG";
+import dc15_1 from "../assets/gumboots/dc15_1.JPG";
+import dc15_2 from "../assets/gumboots/dc15_2.JPG";
 import dc15_3 from "../assets/gumboots/dc15_3.JPG";
-import dc15_4 from "../assets/gumboots/dc15_4.jpg"; 
-import dc15 from "../assets/gumboots/dc15.jpg";
+import dc15_4 from "../assets/gumboots/dc15_4.JPG";
+
 
 
 const productDetails = {
@@ -318,7 +319,7 @@ seoCategory: "Gumboots in Hyderabad",
 "pvc-gumboots-double-colour1": {
   name: "PVC Gumboots - Double Colour",
 
-  images: [ dc15_3, dc15_2, dc15_1, dc15_4,],
+  images: [ dc15_3, dc15_2, dc15_1, dc15_4, dc15,],
 
   image: dc15_3,
 
