@@ -664,6 +664,297 @@ const locations = [
         "Logistics",
       ],
     },
+        {
+      slug: "jeedimetla",
+      city: "Jeedimetla",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Jeedimetla",
+      metaTitle:
+        "Industrial Safety Products Supplier in Jeedimetla | Maxx Challenger",
+      metaDescription:
+        "Maxx Challenger Safety Products supplies safety shoes, helmets, PVC gumboots, gloves, reflective jackets and industrial PPE products in Jeedimetla, Hyderabad.",
+      description:
+        "Maxx Challenger Safety Products supplies industrial safety equipment and PPE solutions to factories, manufacturing units, construction companies, contractors, warehouses and businesses in Jeedimetla and surrounding industrial areas.",
+      areas: [
+        "Jeedimetla Industrial Area",
+        "Quthbullapur",
+        "Chintal",
+        "Suraram",
+        "Suchitra",
+        "Gajularamaram",
+      ],
+      industries: [
+        "Manufacturing",
+        "Construction",
+        "Engineering",
+        "Warehousing",
+        "Logistics",
+        "Infrastructure",
+      ],
+    },
+
+    {
+      slug: "balanagar",
+      city: "Balanagar",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Balanagar",
+      metaTitle:
+        "Industrial Safety Products Supplier in Balanagar | Maxx Challenger",
+      metaDescription:
+        "Buy industrial safety shoes, helmets, PVC gumboots, gloves, reflective jackets and PPE products in Balanagar, Hyderabad from Maxx Challenger Safety Products.",
+      description:
+        "Maxx Challenger Safety Products supplies industrial PPE and workplace safety products to manufacturing companies, engineering units, construction businesses, warehouses and industrial customers in Balanagar and nearby areas.",
+      areas: [
+        "Balanagar Industrial Area",
+        "Ferozguda",
+        "Fatehnagar",
+        "Moosapet",
+        "Kukatpally",
+        "Sanath Nagar",
+      ],
+      industries: [
+        "Manufacturing",
+        "Engineering",
+        "Construction",
+        "Warehousing",
+        "Logistics",
+        "Automobile",
+      ],
+    },
+
+    {
+      slug: "patancheru",
+      city: "Patancheru",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Patancheru",
+      metaTitle:
+        "Industrial Safety Products Supplier in Patancheru | Maxx Challenger",
+      metaDescription:
+        "Maxx Challenger Safety Products supplies industrial safety shoes, helmets, PVC gumboots, gloves, reflective jackets and PPE products in Patancheru, Hyderabad.",
+      description:
+        "Maxx Challenger Safety Products supplies workplace safety equipment and industrial PPE to factories, manufacturing units, construction companies, contractors and industrial businesses in Patancheru and surrounding areas.",
+      areas: [
+        "Patancheru Industrial Area",
+        "BHEL",
+        "Bollaram",
+        "Isnapur",
+        "Rudraram",
+        "Pashamylaram",
+      ],
+      industries: [
+        "Manufacturing",
+        "Chemical",
+        "Pharmaceutical",
+        "Construction",
+        "Engineering",
+        "Warehousing",
+      ],
+    },
+
+    {
+      slug: "medchal",
+      city: "Medchal",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Medchal",
+      metaTitle:
+        "Industrial Safety Products Supplier in Medchal | Maxx Challenger",
+      metaDescription:
+        "Find industrial safety shoes, helmets, PVC gumboots, gloves, reflective jackets and PPE products in Medchal from Maxx Challenger Safety Products.",
+      description:
+        "Maxx Challenger Safety Products supplies industrial safety equipment and PPE solutions to factories, warehouses, construction companies, logistics businesses and industrial workplaces in Medchal and nearby areas.",
+      areas: [
+        "Medchal",
+        "Gundlapochampally",
+        "Kandlakoya",
+        "Komplally",
+        "Dabilpur",
+        "Shamirpet",
+      ],
+      industries: [
+        "Manufacturing",
+        "Warehousing",
+        "Logistics",
+        "Construction",
+        "Engineering",
+        "Infrastructure",
+      ],
+    },
+
+    {
+      slug: "nacharam",
+      city: "Nacharam",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Nacharam",
+      metaTitle:
+        "Industrial Safety Products Supplier in Nacharam | Maxx Challenger",
+      metaDescription:
+        "Maxx Challenger Safety Products supplies safety shoes, helmets, PVC gumboots, gloves, reflective jackets and industrial PPE products in Nacharam, Hyderabad.",
+      description:
+        "Maxx Challenger Safety Products supplies industrial PPE and workplace safety products to manufacturing units, engineering companies, warehouses, contractors and businesses in Nacharam and surrounding industrial areas.",
+      areas: [
+        "Nacharam Industrial Area",
+        "Mallapur",
+        "Habsiguda",
+        "Uppal",
+        "Chilkanagar",
+        "Boduppal",
+      ],
+      industries: [
+        "Manufacturing",
+        "Engineering",
+        "Construction",
+        "Warehousing",
+        "Logistics",
+        "Automobile",
+      ],
+    },
+
+    {
+      slug: "cherlapally",
+      city: "Cherlapally",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Cherlapally",
+      metaTitle:
+        "Industrial Safety Products Supplier in Cherlapally | Maxx Challenger",
+      metaDescription:
+        "Buy industrial safety shoes, helmets, PVC gumboots, gloves, reflective jackets and PPE products in Cherlapally, Hyderabad from Maxx Challenger Safety Products.",
+      description:
+        "Maxx Challenger Safety Products supplies industrial safety equipment and PPE solutions to factories, manufacturing units, engineering companies, construction businesses and warehouses in Cherlapally and surrounding areas.",
+      areas: [
+        "Cherlapally Industrial Area",
+        "ECIL",
+        "Kapra",
+        "Kushaiguda",
+        "Nagaram",
+        "Rampally",
+      ],
+      industries: [
+        "Manufacturing",
+        "Engineering",
+        "Construction",
+        "Warehousing",
+        "Logistics",
+        "Infrastructure",
+      ],
+    },
+
+    {
+      slug: "uppal",
+      city: "Uppal",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Uppal",
+      metaTitle:
+        "Industrial Safety Products Supplier in Uppal | Maxx Challenger",
+      metaDescription:
+        "Maxx Challenger Safety Products supplies safety shoes, helmets, PVC gumboots, gloves, reflective jackets and industrial PPE products in Uppal, Hyderabad.",
+      description:
+        "Maxx Challenger Safety Products supplies industrial PPE and workplace safety products to manufacturing companies, construction contractors, engineering businesses, warehouses and industrial customers in Uppal and nearby areas.",
+      areas: [
+        "Uppal Industrial Area",
+        "Nacharam",
+        "Habsiguda",
+        "Ramanthapur",
+        "Boduppal",
+        "Peerzadiguda",
+      ],
+      industries: [
+        "Manufacturing",
+        "Construction",
+        "Engineering",
+        "Warehousing",
+        "Logistics",
+        "Infrastructure",
+      ],
+    },
+
+    {
+      slug: "shamshabad",
+      city: "Shamshabad",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Shamshabad",
+      metaTitle:
+        "Industrial Safety Products Supplier in Shamshabad | Maxx Challenger",
+      metaDescription:
+        "Find industrial safety shoes, helmets, PVC gumboots, gloves, reflective jackets and PPE products in Shamshabad, Hyderabad from Maxx Challenger.",
+      description:
+        "Maxx Challenger Safety Products supplies workplace safety products and industrial PPE solutions to logistics companies, warehouses, construction businesses, infrastructure projects and industrial customers in Shamshabad and surrounding areas.",
+      areas: [
+        "Shamshabad",
+        "Rajendranagar",
+        "Airport Area",
+        "Kothwalguda",
+        "Tukkuguda",
+        "Maheshwaram",
+      ],
+      industries: [
+        "Logistics",
+        "Warehousing",
+        "Construction",
+        "Infrastructure",
+        "Manufacturing",
+        "Engineering",
+      ],
+    },
+
+    {
+      slug: "kukatpally",
+      city: "Kukatpally",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Kukatpally",
+      metaTitle:
+        "Industrial Safety Products Supplier in Kukatpally | Maxx Challenger",
+      metaDescription:
+        "Maxx Challenger Safety Products supplies industrial safety shoes, helmets, PVC gumboots, gloves, reflective jackets and PPE products in Kukatpally, Hyderabad.",
+      description:
+        "Maxx Challenger Safety Products supplies industrial safety equipment and PPE solutions to construction companies, contractors, engineering businesses, warehouses and commercial establishments in Kukatpally and nearby areas.",
+      areas: [
+        "Kukatpally",
+        "KPHB",
+        "Moosapet",
+        "Balanagar",
+        "Nizampet",
+        "Pragathi Nagar",
+      ],
+      industries: [
+        "Construction",
+        "Engineering",
+        "Manufacturing",
+        "Warehousing",
+        "Infrastructure",
+        "Logistics",
+      ],
+    },
+
+    {
+      slug: "kompally",
+      city: "Kompally",
+      state: "Telangana",
+      title: "Industrial Safety Products Supplier in Kompally",
+      metaTitle:
+        "Industrial Safety Products Supplier in Kompally | Maxx Challenger",
+      metaDescription:
+        "Buy safety shoes, helmets, PVC gumboots, gloves, reflective jackets and industrial PPE products in Kompally, Hyderabad from Maxx Challenger Safety Products.",
+      description:
+        "Maxx Challenger Safety Products supplies industrial safety products and PPE solutions to construction companies, warehouses, logistics businesses, engineering units and industrial customers in Kompally and surrounding areas.",
+      areas: [
+        "Kompally",
+        "Suchitra",
+        "Dulapally",
+        "Petbasheerabad",
+        "Medchal Road",
+        "Quthbullapur",
+      ],
+      industries: [
+        "Construction",
+        "Warehousing",
+        "Logistics",
+        "Engineering",
+        "Manufacturing",
+        "Infrastructure",
+      ],
+    },
 ];
 
-export default locations;
+
+
+export { locations };

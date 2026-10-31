@@ -1,36 +1,21 @@
 const featuredProducts = [
   {
     id: 1,
-    name: "Steel Toe Safety Shoes",
-    image: "/images/products/shoes/mc-101.webp",
-    slug: "/products/safety-shoes/mc-101",
-    features: [
-      "Steel Toe Cap",
-      "PU Sole",
-      "Leather Upper",
-    ],
+    name: "Elite Plus Safety Shoes",
+    image: "/images/shoes/eliteplus2.png",
+    slug: "/products/safety-shoes/elite-plus-safety-shoes",
   },
   {
     id: 2,
-    name: "Leather Safety Shoes",
-    image: "/images/products/shoes/mc-102.webp",
-    slug: "/products/safety-shoes/mc-102",
-    features: [
-      "Impact Resistant",
-      "Oil Resistant",
-      "Comfort Fit",
-    ],
+    name: "Plus Safety Shoes",
+    image: "/images/shoes/plus5.png",
+    slug: "/products/safety-shoes/plus-safety-shoes",
   },
   {
     id: 3,
-    name: "Electrical Safety Shoes",
-    image: "/images/products/shoes/mc-103.webp",
-    slug: "/products/safety-shoes/mc-103",
-    features: [
-      "Electrical Protection",
-      "Slip Resistant",
-      "Shock Absorption",
-    ],
+    name: "Classic Safety Shoes",
+    image: "/images/shoes/classic3.png",
+    slug: "/products/safety-shoes/classic-safety-shoes",
   },
 ];
 

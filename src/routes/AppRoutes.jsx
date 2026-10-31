@@ -21,6 +21,7 @@ import PVCGumboots from "../pages/Pvcgumboots";
 import GalleryPage from "../pages/GalleryPage";
 import Catalogue from "../pages/Catalogue";
 import LocationPage from "../pages/LocationPage.jsx";
+import LocationsPage from "../pages/LocationsPage";
 
 function AppRoutes() {
   return (
@@ -106,6 +107,9 @@ function AppRoutes() {
   path="/blog/:slug"
   element={<BlogDetail />}
 />
+<Route path="/locations" element={<LocationsPage />} />
+<Route path="/locations/:city" element={<LocationPage />} />
+
 
      
     </Routes>

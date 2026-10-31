@@ -7,6 +7,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import CTA from "../components/CTA";
 import StatsSection from "../components/StatsSection";
 import isiLogo from "../assets/certifications/isi.png";
+
 import Gallery from "../components/Gallery";
 
 function Home() {
@@ -145,6 +146,38 @@ function Home() {
 
     </div>
   </div>
+  {/* ================= LOCATIONS WE SERVE ================= */}
+<section className="py-16 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    {/* Section Heading */}
+    <div className="text-center mb-10">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#0B1F3A]">
+        Locations We Serve
+      </h2>
+
+      <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+        Maxx Challenger Safety Products supplies industrial safety products
+        across major cities and industrial areas in Telangana and Andhra Pradesh.
+      </p>
+    </div>
+
+    
+
+    {/* View All Locations */}
+    <div className="text-center mt-8">
+      <Link
+        to="/locations"
+        className="inline-flex items-center px-6 py-3
+                   bg-[#0B1F3A] text-white rounded-lg
+                   font-semibold hover:bg-blue-700 transition"
+      >
+        View All Locations →
+      </Link>
+    </div>
+
+  </div>
+</section>
 </section>
 
       <CTA />

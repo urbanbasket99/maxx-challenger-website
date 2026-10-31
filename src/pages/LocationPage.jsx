@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-import locations from "../data/locations";
+import { locations } from "../data/locations";
 import FinalCTA from "../components/FinalCTA";
 
 function LocationPage() {
