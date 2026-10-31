@@ -114,9 +114,6 @@ const LocationsPage = () => {
                   Safety Shoes • Helmets • Gloves • Gumboots • PPE
                 </p>
 
-                <span className="inline-block mt-4 text-sm font-semibold text-blue-600">
-                  View Location →
-                </span>
               </Link>
             ))}
           </div>
@@ -152,9 +149,7 @@ const LocationsPage = () => {
                   Safety Shoes • Helmets • Gloves • Gumboots • PPE
                 </p>
 
-                <span className="inline-block mt-4 text-sm font-semibold text-blue-600">
-                  View Location →
-                </span>
+              
               </Link>
             ))}
           </div>

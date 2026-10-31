@@ -7,7 +7,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import CTA from "../components/CTA";
 import StatsSection from "../components/StatsSection";
 import isiLogo from "../assets/certifications/isi.png";
-
+s
 import Gallery from "../components/Gallery";
 
 function Home() {
