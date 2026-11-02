@@ -41,43 +41,43 @@ function LocationPage() {
   }
 
   const products = [
-    {
-      title: "Safety Shoes",
-      description:
-        "Industrial safety shoes designed for protection, comfort and everyday workplace use.",
-      link: "/products/safety-shoes",
-    },
-    {
-      title: "Safety Helmets",
-      description:
-        "Industrial safety helmets for construction, manufacturing and other work environments.",
-      link: "/products/safety-helmets",
-    },
-    {
-      title: "PVC Gumboots",
-      description:
-        "Waterproof PVC gumboots suitable for wet, muddy and demanding working conditions.",
-      link: "/pvc-gumboots",
-    },
-    {
-      title: "Safety Gloves",
-      description:
-        "Protective gloves for handling, industrial work and workplace applications.",
-      link: "/products/safety-gloves",
-    },
-    {
-      title: "Reflective Jackets",
-      description:
-        "High-visibility reflective jackets for construction, roadwork and industrial sites.",
-      link: "/products/reflective-jackets",
-    },
-    {
-      title: "Safety Belts",
-      description:
-        "Work-at-height safety equipment for suitable industrial and construction applications.",
-      link: "/products/safety-belts",
-    },
-  ];
+  {
+    title: "Safety Shoes",
+    description:
+      "Industrial safety shoes designed for protection, comfort and everyday workplace use.",
+    link: "/products/foot-protection",
+  },
+  {
+    title: "Safety Helmets",
+    description:
+      "Industrial safety helmets for construction, manufacturing and other work environments.",
+    link: "/products/head-protection",
+  },
+  {
+    title: "PVC Gumboots",
+    description:
+      "Waterproof PVC gumboots suitable for wet, muddy and demanding working conditions.",
+    link: "/pvc-gumboots",
+  },
+  {
+    title: "Safety Gloves",
+    description:
+      "Protective gloves for handling, industrial work and workplace applications.",
+    link: "/products/safety-gloves",
+  },
+  {
+    title: "Reflective Jackets",
+    description:
+      "High-visibility reflective jackets for construction, roadwork and industrial sites.",
+    link: "/products/reflective-jackets",
+  },
+  {
+    title: "Safety Belts",
+    description:
+      "Work-at-height safety equipment for suitable industrial and construction applications.",
+    link: "/products/safety-belts",
+  },
+];
 
   const benefits = [
     "Wide range of industrial PPE products",
